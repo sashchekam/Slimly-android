@@ -1,0 +1,33 @@
+# Пороги подобраны под тот же код, что и .swiftlint.yml на iOS: вёрстка
+# длиннее обычного кода, комментарии развёрнутые и на русском.
+# Всё остальное берётся из настроек detekt по умолчанию
+# (buildUponDefaultConfig = true).
+
+complexity:
+  LongMethod:
+    # Верстальный Composable — это одно длинное выражение без ветвлений.
+    allowedLines: 100
+    ignoreAnnotated: ['Composable']
+  LongParameterList:
+    ignoreAnnotated: ['Composable']
+  TooManyFunctions:
+    allowedFunctionsPerFile: 20
+    allowedFunctionsPerClass: 20
+
+naming:
+  FunctionNaming:
+    # Composable-функция пишется с заглавной — это соглашение Compose.
+    ignoreAnnotated: ['Composable']
+
+style:
+  MaxLineLength:
+    maxLineLength: 120
+  MagicNumber:
+    ignorePropertyDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+    ignoreAnnotated: ['Composable']
+  UnusedPrivateFunction:
+    # Превью — это функция, которую зовёт только IDE.
+    ignoreAnnotated: ['Preview']
+  ReturnCount:
+    max: 3

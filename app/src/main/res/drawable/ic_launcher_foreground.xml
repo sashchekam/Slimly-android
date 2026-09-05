@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Временный знак: настоящая иконка рисуется в фазе 5. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#9184D9"
+        android:pathData="M34,34 h40 a10,10 0 0 1 10,10 v20 a10,10 0 0 1 -10,10 h-40 a10,10 0 0 1 -10,-10 v-20 a10,10 0 0 1 10,-10 z" />
+</vector>
