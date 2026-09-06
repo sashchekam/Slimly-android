@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ja». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="profile_title">プロフィール</string>
+    <string name="profile_library">ライブラリ内</string>
+    <string name="profile_free">空き</string>
+    <string name="profile_compressed">圧縮した容量</string>
+    <string name="profile_now">現在 %1$s</string>
+    <string name="profile_was">以前 %1$s</string>
+    <string name="profile_usage">使った機能</string>
+    <string name="profile_over">%1$s の集計</string>
+    <string name="profile_all_statistics">統計をすべて見る</string>
+    <string name="profile_version">バージョン</string>
+    <string name="profile_debug_countdown">あと %1$d 回でデバッグメニューが開きます</string>
+    <string name="profile_gallery_access">ギャラリーへのアクセス</string>
+    <string name="language_title">言語</string>
+    <string name="permission_authorized">すべての写真</string>
+    <string name="permission_limited">選択した写真</string>
+    <string name="permission_denied">拒否</string>
+    <string name="permission_not_determined">未確認</string>
+    <string name="statistics_title">統計</string>
+    <string name="statistics_by_tool">機能別の処理</string>
+    <string name="statistics_total">処理の合計</string>
+    <string name="statistics_empty">何かを圧縮または変換すると、ここに機能別の内訳が表示されます。</string>
+    <string name="statistics_empty_period">この期間に処理したものはありません。もっと長い期間を選んでみてください。</string>
+    <string name="statistics_privacy">統計はデバイス上で計算され、どこにも送信されません。</string>
+    <string name="summary_compression">%1$s を節約 — 平均 %2$s。</string>
+    <string name="summary_conversion_pair">最も多いのは %1$s、次いで %2$s。</string>
+    <string name="summary_conversion_single">いつも同じ組み合わせ: %1$s。</string>
+    <string name="summary_conversion_unknown">システムは「元 → 先」の組み合わせを返しませんでした。</string>
+    <string name="summary_audio">トラックは %1$s で保存、合計 %2$s。</string>
+    <string name="summary_scan">%1$s、書類あたり平均 %2$s。</string>
+    <string name="empty_compression">この期間に圧縮したものはありません。</string>
+    <string name="empty_conversion">この期間に変換したものはありません。</string>
+    <string name="empty_audio">この期間に音声を抽出していません。</string>
+    <string name="empty_scan">この期間にスキャンしたものはありません。</string>
+    <string name="fact_freed">節約した容量</string>
+    <string name="fact_average_gain">平均削減</string>
+    <string name="fact_common_pair">多い組み合わせ</string>
+    <string name="fact_mix">内訳</string>
+    <string name="fact_duration">長さ</string>
+    <string name="fact_main_format">主な形式</string>
+    <string name="fact_captured">撮影</string>
+    <string name="fact_format">形式</string>
+
+</resources>

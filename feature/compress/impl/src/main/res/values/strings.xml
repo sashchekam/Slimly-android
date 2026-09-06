@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="picker_title">Compress</string>
+    <string name="picker_hint">Photos and videos — up to five at a time</string>
+
+    <string name="level_title">How hard to squeeze</string>
+    <string name="level_from">from %1$s</string>
+    <string name="level_action">Compress · %1$s</string>
+
+</resources>

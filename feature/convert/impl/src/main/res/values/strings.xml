@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="convert_action">Convert</string>
+
+    <string name="photo_title">Photo conversion</string>
+    <string name="photo_hint">The format comes on the next step</string>
+    <string name="photo_format_title">Which format</string>
+    <string name="photo_format_note">WebP is lighter, JPEG works everywhere. PNG is lossless but heavier than the original. The source format is not listed.</string>
+    <string name="photo_format_source">Photo</string>
+
+    <string name="video_title">Video conversion</string>
+    <string name="video_hint">The codec comes on the next step</string>
+    <string name="video_format_title">Which codec</string>
+    <string name="video_format_note">HEVC gives a smaller size, H.264 opens everywhere. This is re-encoding, not a renamed extension — the container stays MP4, the system writes no other.</string>
+    <string name="video_format_source">Video</string>
+
+</resources>

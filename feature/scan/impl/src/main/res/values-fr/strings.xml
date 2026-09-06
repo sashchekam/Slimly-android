@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «fr». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="intro_title">Numérisation de documents</string>
+    <string name="intro_note">Nous trouvons les bords de la feuille, redressons la page et assemblons un PDF — le cadre peut être ajusté à la main</string>
+    <string name="intro_camera">Utiliser l’appareil photo</string>
+    <string name="intro_camera_hint">Les bords sont détectés à la volée, ajustables ensuite</string>
+    <string name="intro_library">Choisir des photos</string>
+    <string name="intro_library_hint">Jusqu’à %1$d pages depuis votre photothèque</string>
+    <string name="camera_cancel">Annuler</string>
+    <string name="camera_flash_auto">Auto</string>
+    <string name="camera_flash_on">Oui</string>
+    <string name="camera_flash">Flash : %1$s</string>
+    <string name="camera_auto_capture">Capture auto</string>
+    <string name="camera_manual">Manuel</string>
+    <string name="camera_manual_hint">Mode manuel · appuyez sur le déclencheur</string>
+    <string name="camera_aim_hint">Pointez l’appareil vers une page</string>
+    <string name="camera_bounds_found">Bords détectés · restez immobile</string>
+    <string name="camera_limit_reached">Limite atteinte — %1$s</string>
+    <string name="camera_limit_spoken">Au maximum %1$s à la fois</string>
+    <string name="camera_page_captured">Page %1$d prise</string>
+    <string name="camera_first_page">Prenez la première page</string>
+    <string name="camera_shutter">Prendre une page</string>
+    <string name="camera_done">OK</string>
+    <string name="camera_done_count">OK · %1$d</string>
+    <string name="camera_denied_title">Aucun accès à l’appareil photo</string>
+    <string name="camera_denied_note">Autorisez l’appareil photo dans Réglages — les pages peuvent être prises ou choisies dans la photothèque</string>
+    <string name="camera_open_settings">Ouvrir Réglages</string>
+    <string name="picker_title">Pages du scan</string>
+    <string name="picker_hint">L’ordre des pages suit l’ordre de sélection</string>
+    <string name="pages_title">Bords des pages</string>
+    <string name="pages_subtitle">Page %1$d sur %2$d · %3$s</string>
+    <string name="pages_searching">Recherche des bords de la feuille…</string>
+    <string name="pages_not_found">Aucun bord détecté — faites glisser les coins jusqu’au bord de la page</string>
+    <string name="pages_adjust_hint">Faites glisser les coins si le cadre a raté le bord</string>
+    <string name="pages_reset">Réinitialiser</string>
+    <string name="pages_no_crop">Sans recadrage</string>
+    <string name="pages_action">Suivant · %1$s</string>
+    <string name="status_searching">recherche de la feuille</string>
+    <string name="status_found">feuille détectée</string>
+    <string name="status_not_found">feuille introuvable</string>
+    <string name="status_adjusted">cadre ajusté</string>
+    <string name="format_title">Comment assembler le scan</string>
+    <string name="format_note">L’image est redressée selon les bords choisis et le fond est ramené au blanc. Le N/B donne le texte le plus net, la couleur sert aux tampons et aux images. Le document pourra être enregistré dans Fichiers — les originaux restent dans la photothèque.</string>
+    <string name="format_action">Assembler le scan</string>
+    <string name="format_source">Photo</string>
+
+</resources>

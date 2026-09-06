@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Строки модуля. Английские: переводы на остальные девять языков приедут
+  одноразовым конвертером в фазе 4.
+-->
+<resources>
+
+    <string name="unresolved_title">Screen not found</string>
+    <string name="unresolved_description">No resolver is registered for %1$s</string>
+
+</resources>

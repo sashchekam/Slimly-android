@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Стили только для превью виджета: настоящую полку рисует Glance, а список
+  виджетов показывает обычную разметку — и повторять в ней одни и те же
+  пять плиток построчно незачем.
+-->
+<resources>
+
+    <style name="SlimlyWidgetPreviewTile">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/widget_surface</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="SlimlyWidgetPreviewIcon">
+        <item name="android:layout_width">22dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:tint">#CFD3E5</item>
+    </style>
+
+</resources>

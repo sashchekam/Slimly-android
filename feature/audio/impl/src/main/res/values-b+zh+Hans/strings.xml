@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «zh-Hans». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="tool_title">提取音频</string>
+    <string name="picker_hint">音轨会成为单独的文件</string>
+    <string name="format_title">音轨格式</string>
+    <string name="format_note">M4A 是直接从容器复制音轨：瞬间完成，无需重新编码。WAV 无损但体积大 — 每分钟约十兆字节。</string>
+    <string name="format_source">视频音轨</string>
+
+</resources>

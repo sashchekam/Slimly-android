@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Английский взят с iOS дословно везде, где строка про одно и то же: переводы
+  на девять языков там уже есть, и переписывать фразу заново значило бы
+  отказаться от них.
+-->
+<resources>
+
+    <!-- Профиль -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_library">in the library</string>
+    <string name="profile_free">free</string>
+    <string name="profile_compressed">compressed by us</string>
+    <string name="profile_now">now %1$s</string>
+    <string name="profile_was">was %1$s</string>
+    <string name="profile_usage">what you used</string>
+    <string name="profile_over">over %1$s</string>
+    <string name="profile_all_statistics">All statistics</string>
+    <string name="profile_version">Version</string>
+    <string name="profile_debug_countdown">%1$d more — and the Debug menu opens</string>
+
+    <!-- Настройки. Про галерею, а не про «Фото»: приложения с таким именем
+         на Android нет, и разрешение называется иначе. -->
+    <string name="profile_gallery_access">Gallery access</string>
+    <string name="language_title">Language</string>
+    <string name="permission_authorized">All photos</string>
+    <string name="permission_limited">Selected photos</string>
+    <string name="permission_denied">Denied</string>
+    <string name="permission_not_determined">Not requested</string>
+
+    <!-- Статистика -->
+    <string name="statistics_title">Statistics</string>
+    <string name="statistics_by_tool">operations by tool</string>
+    <string name="statistics_total">operations in total</string>
+    <string name="statistics_empty">A breakdown by tool will show up here — as soon as you compress or convert something.</string>
+    <string name="statistics_empty_period">Nothing was processed in this period. Try a longer one.</string>
+    <string name="statistics_privacy">Statistics are computed on device and never sent anywhere.</string>
+
+    <!-- Что стоит за числом -->
+    <string name="summary_compression">Freed up %1$s — average gain %2$s.</string>
+    <string name="summary_conversion_pair">Most often %1$s, less often %2$s.</string>
+    <string name="summary_conversion_single">Always the same pair: %1$s.</string>
+    <string name="summary_conversion_unknown">The system did not name any “from → to” pairs.</string>
+    <string name="summary_audio">Tracks saved as %1$s, %2$s in total.</string>
+    <string name="summary_scan">%1$s, on average %2$s per document.</string>
+
+    <string name="empty_compression">Nothing was compressed in this period.</string>
+    <string name="empty_conversion">Nothing was converted in this period.</string>
+    <string name="empty_audio">No audio was extracted in this period.</string>
+    <string name="empty_scan">Nothing was scanned in this period.</string>
+
+    <!-- Подписи под значениями в подвале карточки -->
+    <string name="fact_freed">freed up</string>
+    <string name="fact_average_gain">average gain</string>
+    <string name="fact_common_pair">common pair</string>
+    <string name="fact_mix">mix</string>
+    <string name="fact_duration">duration</string>
+    <string name="fact_main_format">main format</string>
+    <string name="fact_captured">captured</string>
+    <string name="fact_format">format</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Английский взят с iOS дословно: инструмент про то же самое. -->
+<resources>
+
+    <string name="intro_title">Document scan</string>
+    <string name="intro_note">We find the sheet bounds, straighten the page and assemble a PDF — the frame can be adjusted by hand</string>
+    <string name="intro_camera">Use the camera</string>
+    <string name="intro_camera_hint">Bounds are caught on the fly, adjust them afterwards</string>
+    <string name="intro_library">Pick photos</string>
+    <string name="intro_library_hint">Up to %1$d pages from your library</string>
+
+    <string name="camera_cancel">Cancel</string>
+    <string name="camera_flash_auto">Auto</string>
+    <string name="camera_flash_on">On</string>
+    <string name="camera_flash">Flash: %1$s</string>
+    <string name="camera_auto_capture">Auto capture</string>
+    <string name="camera_manual">Manual</string>
+    <string name="camera_manual_hint">Manual mode · press the shutter</string>
+    <string name="camera_aim_hint">Point the camera at a page</string>
+    <string name="camera_bounds_found">Bounds found · hold steady</string>
+    <string name="camera_limit_reached">Limit reached — %1$s</string>
+    <string name="camera_limit_spoken">At most %1$s at a time</string>
+    <string name="camera_page_captured">Page %1$d captured</string>
+    <string name="camera_first_page">Shoot the first page</string>
+    <string name="camera_shutter">Shoot a page</string>
+    <string name="camera_done">Done</string>
+    <string name="camera_done_count">Done · %1$d</string>
+    <string name="camera_denied_title">No access to the camera</string>
+    <string name="camera_denied_note">Allow the camera in Settings — pages can be shot or picked from your library</string>
+    <string name="camera_open_settings">Open Settings</string>
+
+    <string name="picker_title">Scan pages</string>
+    <string name="picker_hint">Pages follow the order you pick them</string>
+
+    <string name="pages_title">Page bounds</string>
+    <string name="pages_subtitle">Page %1$d of %2$d · %3$s</string>
+    <string name="pages_searching">Looking for the sheet bounds…</string>
+    <string name="pages_not_found">No bounds found — drag the corners to the edge of the page</string>
+    <string name="pages_adjust_hint">Drag the corners if the frame missed the edge</string>
+    <string name="pages_reset">Reset</string>
+    <string name="pages_no_crop">No crop</string>
+    <string name="pages_action">Next · %1$s</string>
+
+    <string name="status_searching">looking for the sheet</string>
+    <string name="status_found">sheet found</string>
+    <string name="status_not_found">sheet not found</string>
+    <string name="status_adjusted">frame adjusted</string>
+
+    <string name="format_title">How to assemble the scan</string>
+    <string name="format_note">The frame is straightened along the chosen bounds and the background is pushed to white. B/w gives the crispest text, color is for stamps and pictures. The document can be saved to Files — the originals stay in your library.</string>
+    <string name="format_action">Assemble the scan</string>
+    <string name="format_source">Photo</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «zh-Hans». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="menu_title">Debug 菜单</string>
+    <string name="menu_close">完成</string>
+    <string name="menu_sections">分区</string>
+    <string name="menu_actions">操作</string>
+    <string name="menu_analytics">分析</string>
+    <string name="menu_note">在个人页连点五次版本号即可打开该菜单，它只存在于内部构建中 — Google Play 版本没有。</string>
+    <string name="menu_open">打开调试菜单</string>
+    <string name="knob_failure_title">处理失败</string>
+    <string name="knob_failure_note">每个文件都以所选原因失败 — 这样就能看到结果页的失败列表</string>
+    <string name="knob_tour_title">新手引导</string>
+    <string name="knob_tour_note">标记引导已展示 — 取消它并重启 App 就能从引导开始</string>
+    <string name="knob_seen">已显示</string>
+    <string name="knob_unseen">未显示</string>
+    <string name="knob_tour_marked">已将引导标记为已显示</string>
+    <string name="knob_tour_cleared">下次启动时会显示引导</string>
+    <string name="action_copy_diagnostics">复制诊断信息</string>
+    <string name="action_copy_diagnostics_hint">版本、设备、ID</string>
+    <string name="action_copy_diagnostics_done">诊断信息已复制到剪贴板</string>
+    <string name="action_reset_stats">重置统计</string>
+    <string name="action_reset_stats_hint">个人资料会清零</string>
+    <string name="action_reset_stats_done">个人资料统计已清零</string>
+    <string name="action_reset_knobs">关闭所有覆盖</string>
+    <string name="action_reset_knobs_hint">恢复成 Google Play 的样子</string>
+    <string name="action_reset_knobs_done">已关闭覆盖</string>
+    <string name="config_note">服务器的值以及叠加其上的本地覆盖。覆盖只留在本机并在重启后依然有效，而界面在打开时读取当时的值。</string>
+    <string name="config_summary">来自服务器的值</string>
+    <string name="config_summary_overrides">覆盖：%1$d</string>
+    <string name="config_refresh">刷新</string>
+    <string name="config_updated">值已更新</string>
+    <string name="config_nothing_fetched">服务器没有返回任何内容</string>
+    <string name="config_empty">没有值</string>
+    <string name="config_empty_note">配置尚未加载，项目中没有 google-services.json，或者网页控制台还没有发布任何参数。</string>
+    <string name="config_state_remote">来自服务器</string>
+    <string name="config_state_default">键的默认值</string>
+    <string name="config_state_overridden">已覆盖 · 服务器值 %1$s</string>
+    <string name="config_state_overridden_only">已覆盖 · 服务器上没有值</string>
+    <string name="config_value_field">值</string>
+    <string name="config_edit_note">该值只在本机被覆盖。留空即可取消覆盖。</string>
+    <string name="config_override">覆盖</string>
+    <string name="config_restore">恢复服务器的值</string>
+    <string name="config_cancel">取消</string>
+    <string name="config_override_set">值已覆盖</string>
+    <string name="config_override_cleared">已取消覆盖</string>
+    <string name="config_clear_all">取消全部覆盖</string>
+    <string name="config_all_cleared">已取消全部覆盖</string>
+    <string name="analytics_note">本次启动后发往分析的事件和属性。日志保存在内存中：重启即清空，在此之前保留最近 %1$d 条记录。</string>
+    <string name="analytics_summary_empty">空</string>
+    <string name="analytics_summary_records">记录：%1$d</string>
+    <string name="analytics_all">全部</string>
+    <string name="analytics_properties">属性</string>
+    <string name="analytics_property">属性 · %1$s</string>
+    <string name="analytics_value_cleared">已清除</string>
+    <string name="analytics_copy">复制</string>
+    <string name="analytics_copied">日志已复制</string>
+    <string name="analytics_clear">清空</string>
+    <string name="analytics_log_cleared">日志已清空</string>
+    <string name="analytics_empty">没有事件</string>
+    <string name="analytics_empty_note">App 还没有发送任何内容。用任意工具走一遍再回到这里 — 记录会立刻出现，无需等待网页控制台。</string>
+
+</resources>

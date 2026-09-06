@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ja». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="convert_action">変換</string>
+    <string name="photo_title">写真の変換</string>
+    <string name="photo_hint">形式は次のステップで指定します</string>
+    <string name="photo_format_title">どの形式に</string>
+    <string name="photo_format_note">WebP は軽く、JPEG はどこでも使えます。PNG は可逆ですがオリジナルより重くなります。元の形式は一覧に出しません。</string>
+    <string name="photo_format_source">写真</string>
+    <string name="video_title">ビデオの変換</string>
+    <string name="video_hint">コーデックは次のステップで</string>
+    <string name="video_format_title">どのコーデックに</string>
+    <string name="video_format_note">HEVC はサイズが小さく、H.264 はどこでも開けます。拡張子の変更ではなく再エンコードです — コンテナは MP4 のまま、システムは他を書き出しません。</string>
+    <string name="video_format_source">ビデオ</string>
+
+</resources>

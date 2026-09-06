@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «zh-Hans». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="intro_title">文稿扫描</string>
+    <string name="intro_note">我们会找到纸张边界、校正页面并生成 PDF — 边框可手动调整</string>
+    <string name="intro_camera">用相机拍摄</string>
+    <string name="intro_camera_hint">边界实时识别，之后还能调整</string>
+    <string name="intro_library">选择照片</string>
+    <string name="intro_library_hint">最多从图库选取 %1$d 页</string>
+    <string name="camera_cancel">取消</string>
+    <string name="camera_flash_auto">自动</string>
+    <string name="camera_flash_on">开</string>
+    <string name="camera_flash">闪光灯：%1$s</string>
+    <string name="camera_auto_capture">自动拍摄</string>
+    <string name="camera_manual">手动</string>
+    <string name="camera_manual_hint">手动模式 · 请按快门</string>
+    <string name="camera_aim_hint">请将相机对准页面</string>
+    <string name="camera_bounds_found">已找到边界 · 请保持稳定</string>
+    <string name="camera_limit_reached">已达上限 — %1$s</string>
+    <string name="camera_limit_spoken">一次最多 %1$s</string>
+    <string name="camera_page_captured">已拍摄第 %1$d 页</string>
+    <string name="camera_first_page">拍摄第一页</string>
+    <string name="camera_shutter">拍摄页面</string>
+    <string name="camera_done">完成</string>
+    <string name="camera_done_count">完成 · %1$d</string>
+    <string name="camera_denied_title">无法访问相机</string>
+    <string name="camera_denied_note">请在“设置”中允许相机 — 页面可以拍摄，也可以从图库中选择</string>
+    <string name="camera_open_settings">打开设置</string>
+    <string name="picker_title">扫描页面</string>
+    <string name="picker_hint">页面顺序与选择顺序一致</string>
+    <string name="pages_title">页面边界</string>
+    <string name="pages_subtitle">第 %1$d 页，共 %2$d 页 · %3$s</string>
+    <string name="pages_searching">正在寻找纸张边界…</string>
+    <string name="pages_not_found">未找到边界 — 请把四角拖到页面边缘</string>
+    <string name="pages_adjust_hint">如果边框没对准边缘，请拖动四角</string>
+    <string name="pages_reset">重置</string>
+    <string name="pages_no_crop">不裁剪</string>
+    <string name="pages_action">下一步 · %1$s</string>
+    <string name="status_searching">正在寻找纸张</string>
+    <string name="status_found">已找到纸张</string>
+    <string name="status_not_found">未找到纸张</string>
+    <string name="status_adjusted">边框已调整</string>
+    <string name="format_title">如何生成扫描件</string>
+    <string name="format_note">按所选边界校正画面，并将背景提亮为白色。黑白的文字最清晰，彩色适合印章和图片。文稿可保存到“文件”，原件仍留在图库中。</string>
+    <string name="format_action">生成扫描件</string>
+    <string name="format_source">照片</string>
+
+</resources>

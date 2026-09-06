@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «zh-Hans». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="convert_action">转换</string>
+    <string name="photo_title">照片转换</string>
+    <string name="photo_hint">格式在下一步指定</string>
+    <string name="photo_format_title">转换为哪种格式</string>
+    <string name="photo_format_note">WebP 更小，JPEG 兼容性最好。PNG 无损但比原件更大。列表中不显示原格式。</string>
+    <string name="photo_format_source">照片</string>
+    <string name="video_title">视频转换</string>
+    <string name="video_hint">编码在下一步选择</string>
+    <string name="video_format_title">使用哪种编码</string>
+    <string name="video_format_note">HEVC 体积更小，H.264 处处可开。这是重新编码，而非改扩展名 — 容器仍是 MP4，系统不写其他格式。</string>
+    <string name="video_format_source">视频</string>
+
+</resources>

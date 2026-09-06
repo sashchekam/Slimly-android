@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ja». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="tool_compress_title">圧縮</string>
+    <string name="tool_compress_short">圧縮</string>
+    <string name="tool_compress_subtitle">画は同じ、重さはわずか</string>
+    <string name="tool_convert_photo_title">写真を変換</string>
+    <string name="tool_convert_photo_short">写真</string>
+    <string name="tool_convert_video_title">ビデオを変換</string>
+    <string name="tool_convert_video_short">ビデオ</string>
+    <string name="tool_scan_title">書類をスキャン</string>
+    <string name="tool_scan_short">スキャン</string>
+    <string name="tool_scan_subtitle">ページを一つの PDF に</string>
+    <string name="tool_audio_title">音声を抽出</string>
+    <string name="tool_audio_short">音声</string>
+    <string name="tool_audio_subtitle">ビデオから音声トラックを</string>
+    <string name="widget_board_title">ツール</string>
+    <string name="widget_board_description">Slimly のすべてのツールをすぐそばに。</string>
+    <string name="widget_tool_title">ツール</string>
+    <string name="widget_tool_description">選んだ Slimly のツールをワンタップで開きます。</string>
+    <string name="widget_tool_configure">ウィジェットが開く Slimly のツール。</string>
+
+</resources>

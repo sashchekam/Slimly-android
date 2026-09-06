@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «zh-Hans». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="kind_compression">压缩</string>
+    <string name="kind_conversion">转换</string>
+    <string name="kind_audio_extraction">提取音频</string>
+    <string name="kind_scan">文稿扫描</string>
+    <string name="kind_short_compression">压缩</string>
+    <string name="kind_short_conversion">转换</string>
+    <string name="kind_short_audio_extraction">音频</string>
+    <string name="kind_short_scan">扫描</string>
+    <string name="audio_format_aac">M4A · %1$d kbps</string>
+    <string name="audio_format_wav">WAV · 无损</string>
+    <string name="palette_color">彩色</string>
+    <string name="palette_gray">灰度</string>
+    <string name="palette_black_and_white">黑白</string>
+    <string name="quality_light">轻度</string>
+    <string name="quality_medium">中等</string>
+    <string name="quality_maximum">最大</string>
+    <string name="quality_summary_light">1080p，几乎与原件无异</string>
+    <string name="quality_summary_medium">1080p，码率更低 — 适合聊天工具和云盘</string>
+    <string name="quality_summary_maximum">720p，细节处更明显</string>
+    <string name="period_month">30 天</string>
+    <string name="period_quarter">90 天</string>
+    <string name="period_all_time">全部时间</string>
+    <string name="period_all_time_inline">全部时间</string>
+    <string name="size_megabyte">MB</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="date_today">今天</string>
+    <string name="date_yesterday">昨天</string>
+    <string name="digest_empty">尚未处理任何内容</string>
+    <string name="digest_since">自 %1$s · %2$s</string>
+    <string name="badge_photo">照片</string>
+    <string name="badge_video">视频</string>
+    <string name="library_error_access_denied">无法访问照片图库</string>
+    <string name="library_error_item_not_found">在照片图库中找不到该文件</string>
+    <string name="library_error_original_unavailable">原件仍在云端</string>
+    <string name="failure_none">无</string>
+    <string name="failure_no_space">空间不足</string>
+    <string name="failure_unreadable">文件损坏</string>
+    <string name="failure_interrupted">已中断</string>
+    <string name="failure_save_denied">禁止保存</string>
+    <string name="failure_detail_no_space">设备空间不足，无法保存副本</string>
+    <string name="failure_detail_unreadable">文件已损坏，或仍在从云端下载</string>
+    <string name="failure_detail_interrupted">处理被系统中断</string>
+    <string name="failure_detail_save_denied">Android 拒绝将结果保存到图库</string>
+    <plurals name="count_file">
+        <item quantity="other">%1$d 个文件</item>
+    </plurals>
+    <plurals name="count_photo">
+        <item quantity="other">%1$d 张照片</item>
+    </plurals>
+    <plurals name="count_video">
+        <item quantity="other">%1$d 个视频</item>
+    </plurals>
+    <plurals name="count_page">
+        <item quantity="other">%1$d 页</item>
+    </plurals>
+    <plurals name="count_track">
+        <item quantity="other">%1$d 条音轨</item>
+    </plurals>
+    <plurals name="count_conversion">
+        <item quantity="other">%1$d 次转换</item>
+    </plurals>
+    <plurals name="count_scan">
+        <item quantity="other">%1$d 次扫描</item>
+    </plurals>
+    <plurals name="unit_file">
+        <item quantity="other">文件</item>
+    </plurals>
+    <plurals name="unit_photo">
+        <item quantity="other">照片</item>
+    </plurals>
+    <plurals name="unit_video">
+        <item quantity="other">视频</item>
+    </plurals>
+    <plurals name="unit_page">
+        <item quantity="other">页</item>
+    </plurals>
+    <plurals name="unit_track">
+        <item quantity="other">音轨</item>
+    </plurals>
+    <plurals name="unit_conversion">
+        <item quantity="other">转换</item>
+    </plurals>
+    <plurals name="unit_scan">
+        <item quantity="other">扫描</item>
+    </plurals>
+
+</resources>

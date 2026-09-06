@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ja». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="unresolved_title">画面が見つかりません</string>
+    <string name="unresolved_description">%1$s のリゾルバが登録されていません</string>
+
+</resources>

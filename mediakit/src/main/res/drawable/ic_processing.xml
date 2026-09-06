@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Значок в шторке рисуется системой одним цветом, поэтому здесь только форма:
+  стрелка вниз в поддон — «файл ужимается и ложится на место».
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#FFFFFF">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11,3 h2 v7.2 l2.9,-2.9 1.4,1.4 -5.3,5.3 -5.3,-5.3 1.4,-1.4 2.9,2.9 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M4,17 h16 v2 h-16 z" />
+</vector>

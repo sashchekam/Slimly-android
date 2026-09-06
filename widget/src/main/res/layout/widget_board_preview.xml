@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Как полка выглядит в списке виджетов. Разметка статическая и рисуется
+  системой до установки: Glance туда не доезжает, а иконка сжатия вместо
+  превью выглядела бы случайной.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161826"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+        style="@style/SlimlyWidgetPreviewTile"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            style="@style/SlimlyWidgetPreviewIcon"
+            android:contentDescription="@string/tool_compress_short"
+            android:src="@drawable/ic_tool_compress" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SlimlyWidgetPreviewTile"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            style="@style/SlimlyWidgetPreviewIcon"
+            android:contentDescription="@string/tool_convert_photo_short"
+            android:src="@drawable/ic_tool_convert_photo" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SlimlyWidgetPreviewTile"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            style="@style/SlimlyWidgetPreviewIcon"
+            android:contentDescription="@string/tool_convert_video_short"
+            android:src="@drawable/ic_tool_convert_video" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SlimlyWidgetPreviewTile"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            style="@style/SlimlyWidgetPreviewIcon"
+            android:contentDescription="@string/tool_scan_short"
+            android:src="@drawable/ic_tool_scan" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SlimlyWidgetPreviewTile"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            style="@style/SlimlyWidgetPreviewIcon"
+            android:contentDescription="@string/tool_audio_short"
+            android:src="@drawable/ic_tool_audio" />
+    </LinearLayout>
+</LinearLayout>

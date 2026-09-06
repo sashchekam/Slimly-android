@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Полка инструментов. Настройки у виджета нет: список берётся из каталога
+  целиком, и настраивать в нём нечего — поэтому и configure-Activity здесь
+  не объявлена.
+
+  `previewLayout` — то, как полка выглядит в списке виджетов. Иконка одного
+  инструмента вместо превью выглядела бы там случайной; атрибут появился
+  в Android 12, на старых остаётся `previewImage`.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:description="@string/widget_board_description"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:minWidth="180dp"
+    android:minHeight="70dp"
+    android:previewImage="@drawable/ic_tool_compress"
+    android:previewLayout="@layout/widget_board_preview"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="4"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"
+    tools:targetApi="s" />

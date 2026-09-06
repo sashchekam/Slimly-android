@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ru». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="picker_action">Далее · %1$s</string>
+    <string name="picker_action_with_size">Далее · %1$s, %2$s</string>
+    <string name="picker_denied_title">Нет доступа к галерее</string>
+    <string name="picker_denied_hint">Slimly работает с файлами, которые вы выбираете сами. Доступ выдаётся в настройках.</string>
+    <string name="picker_denied_action">Открыть настройки</string>
+    <string name="picker_empty_title">Показывать нечего</string>
+    <string name="picker_empty_hint">В этом альбоме нет файлов, с которыми Slimly умеет работать</string>
+    <string name="picker_empty_limited">Видны только выбранные вами файлы. Добавить ещё можно в настройках.</string>
+    <string name="format_section_title">формат</string>
+    <string name="format_from">из</string>
+    <string name="format_to">в</string>
+    <string name="stage_compressing">сжимаем</string>
+    <string name="stage_converting">конвертируем</string>
+    <string name="stage_extracting">извлекаем</string>
+    <string name="stage_scanning">сканируем</string>
+    <string name="progress_estimating">%1$s · оцениваем</string>
+    <string name="progress_remaining">Осталось %1$s · %2$s</string>
+    <string name="progress_cancel">Отмена</string>
+    <string name="stage_compression_done">сжато</string>
+    <string name="stage_conversion_done">сконвертировано</string>
+    <string name="stage_audio_done">извлечено</string>
+    <string name="stage_scan_done">отсканировано</string>
+    <string name="summary_freed">Освободили %1$s</string>
+    <string name="summary_dense">%1$s · и так было плотно</string>
+    <string name="summary_originals_untouched">оригиналы на месте</string>
+    <string name="outcome_failed">Обработать не удалось</string>
+    <string name="outcome_done">Готово</string>
+    <string name="outcome_track_size">дорожка %1$s</string>
+    <string name="outcome_rename_file">Переименовать файл %1$s</string>
+    <string name="outcome_delete_originals">Удалить оригиналы · %1$s</string>
+    <string name="outcome_share_file">Поделиться файлом %1$s</string>
+    <string name="outcome_share_all">Поделиться всеми · %1$d</string>
+    <string name="save_to_gallery">Сохранить в галерею</string>
+    <string name="save_to_files">Сохранить в «Файлы»</string>
+    <string name="save_hint">Оригиналы остаются на месте</string>
+    <string name="save_done">Сохранено в галерею</string>
+    <string name="save_files_done">Сохранено в «Файлы»</string>
+    <string name="save_files_folder">Сохранено в папку «Slimly» в «Файлах»</string>
+    <string name="save_partial">Часть файлов сохранить не удалось</string>
+    <string name="save_failed">Сохранить не удалось</string>
+    <string name="hint_compression">Нажмите на файл, чтобы сравнить до и после</string>
+    <string name="hint_preview">Нажмите на файл, чтобы открыть просмотр</string>
+    <string name="preview_before_title">Оригинал · %1$s</string>
+    <string name="preview_after_title">Сжатое · %1$s</string>
+    <string name="preview_before_caption">Оригинал · %1$s</string>
+    <string name="preview_after_caption">после · %1$s</string>
+    <string name="preview_compression">Копия из медиатеки, %1$s веса ушло. Оригинал не тронут.</string>
+    <string name="preview_conversion">Готовый %1$s из медиатеки. Оригинал остался как был.</string>
+    <string name="preview_scan">Готовый %1$s — он же лежит в «Файлах», в папке Slimly.</string>
+    <string name="preview_audio">Готовая дорожка — она лежит в «Файлах», в папке Slimly. Видео не изменялось.</string>
+    <string name="preview_source_compare">Оригинал из медиатеки — для сравнения.</string>
+    <string name="preview_source_note">Оригинал из медиатеки — так он выглядит сейчас. Обработка его не меняет: результат станет отдельным файлом.</string>
+    <string name="preview_track">Дорожка видео</string>
+    <string name="preview_track_time">Дорожка видео · %1$s</string>
+    <string name="badge_compressed">СЖАТАЯ КОПИЯ</string>
+    <string name="badge_document">ДОКУМЕНТ</string>
+    <string name="badge_original">ОРИГИНАЛ</string>
+    <string name="badge_result">РЕЗУЛЬТАТ</string>
+    <string name="badge_track">ДОРОЖКА</string>
+    <string name="preview_open">Открыть в…</string>
+    <string name="rename_title">Новое имя</string>
+    <string name="rename_field">Имя файла</string>
+    <string name="rename_apply">Переименовать</string>
+    <string name="rename_cancel">Отмена</string>
+    <string name="rename_note">Расширение %1$s останется прежним</string>
+    <string name="rename_failed">Не удалось переименовать</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ko». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="tool_title">오디오 추출</string>
+    <string name="picker_hint">트랙은 별도의 파일이 됩니다</string>
+    <string name="format_title">트랙 형식</string>
+    <string name="format_note">M4A는 컨테이너에서 트랙을 그대로 복사합니다. 즉시 끝나고 재인코딩도 없습니다. WAV는 무손실이지만 무겁습니다 — 1분에 약 10 MB.</string>
+    <string name="format_source">동영상 트랙</string>
+
+</resources>

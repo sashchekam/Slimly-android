@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ru». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="kind_compression">Сжатие</string>
+    <string name="kind_conversion">Конвертация</string>
+    <string name="kind_audio_extraction">Извлечение звука</string>
+    <string name="kind_scan">Скан документа</string>
+    <string name="kind_short_compression">Сжатие</string>
+    <string name="kind_short_conversion">Конвертация</string>
+    <string name="kind_short_audio_extraction">Звук</string>
+    <string name="kind_short_scan">Сканы</string>
+    <string name="audio_format_aac">M4A · %1$d кбит/с</string>
+    <string name="audio_format_wav">WAV · без потерь</string>
+    <string name="palette_color">цвет</string>
+    <string name="palette_gray">серый</string>
+    <string name="palette_black_and_white">ч/б</string>
+    <string name="quality_light">Лёгкое</string>
+    <string name="quality_medium">Среднее</string>
+    <string name="quality_maximum">Максимальное</string>
+    <string name="quality_summary_light">1080p, почти не отличить от оригинала</string>
+    <string name="quality_summary_medium">1080p, битрейт ниже — для мессенджеров и облака</string>
+    <string name="quality_summary_maximum">720p, заметнее на крупных деталях</string>
+    <string name="period_month">30 дней</string>
+    <string name="period_quarter">90 дней</string>
+    <string name="period_all_time">Всё время</string>
+    <string name="period_all_time_inline">всё время</string>
+    <string name="size_megabyte">МБ</string>
+    <string name="size_gigabyte">ГБ</string>
+    <string name="date_today">Сегодня</string>
+    <string name="date_yesterday">Вчера</string>
+    <string name="digest_empty">Пока ничего не обработано</string>
+    <string name="digest_since">с %1$s · %2$s</string>
+    <string name="badge_photo">ФОТО</string>
+    <string name="badge_video">ВИДЕО</string>
+    <string name="library_error_access_denied">Нет доступа к медиатеке</string>
+    <string name="library_error_item_not_found">Файл не найден в медиатеке</string>
+    <string name="library_error_original_unavailable">Оригинал ещё в облаке</string>
+    <string name="failure_none">Нет</string>
+    <string name="failure_no_space">Нет места</string>
+    <string name="failure_unreadable">Битый файл</string>
+    <string name="failure_interrupted">Прервано</string>
+    <string name="failure_save_denied">Запись запрещена</string>
+    <string name="failure_detail_no_space">На устройстве не хватило места для копии</string>
+    <string name="failure_detail_unreadable">Файл повреждён или ещё скачивается из облака</string>
+    <string name="failure_detail_interrupted">Обработка прервана системой</string>
+    <string name="failure_detail_save_denied">Android не разрешил сохранить результат в галерею</string>
+    <plurals name="count_file">
+        <item quantity="one">%1$d файл</item>
+        <item quantity="few">%1$d файла</item>
+        <item quantity="many">%1$d файлов</item>
+        <item quantity="other">%1$d файла</item>
+    </plurals>
+    <plurals name="count_photo">
+        <item quantity="one">%1$d фото</item>
+        <item quantity="few">%1$d фото</item>
+        <item quantity="many">%1$d фото</item>
+        <item quantity="other">%1$d фото</item>
+    </plurals>
+    <plurals name="count_video">
+        <item quantity="one">%1$d видео</item>
+        <item quantity="few">%1$d видео</item>
+        <item quantity="many">%1$d видео</item>
+        <item quantity="other">%1$d видео</item>
+    </plurals>
+    <plurals name="count_page">
+        <item quantity="one">%1$d страница</item>
+        <item quantity="few">%1$d страницы</item>
+        <item quantity="many">%1$d страниц</item>
+        <item quantity="other">%1$d страницы</item>
+    </plurals>
+    <plurals name="count_track">
+        <item quantity="one">%1$d дорожка</item>
+        <item quantity="few">%1$d дорожки</item>
+        <item quantity="many">%1$d дорожек</item>
+        <item quantity="other">%1$d дорожки</item>
+    </plurals>
+    <plurals name="count_conversion">
+        <item quantity="one">%1$d конвертация</item>
+        <item quantity="few">%1$d конвертации</item>
+        <item quantity="many">%1$d конвертаций</item>
+        <item quantity="other">%1$d конвертации</item>
+    </plurals>
+    <plurals name="count_scan">
+        <item quantity="one">%1$d скан</item>
+        <item quantity="few">%1$d скана</item>
+        <item quantity="many">%1$d сканов</item>
+        <item quantity="other">%1$d скана</item>
+    </plurals>
+    <plurals name="unit_file">
+        <item quantity="one">файл</item>
+        <item quantity="few">файла</item>
+        <item quantity="many">файлов</item>
+        <item quantity="other">файла</item>
+    </plurals>
+    <plurals name="unit_photo">
+        <item quantity="one">фото</item>
+        <item quantity="few">фото</item>
+        <item quantity="many">фото</item>
+        <item quantity="other">фото</item>
+    </plurals>
+    <plurals name="unit_video">
+        <item quantity="one">видео</item>
+        <item quantity="few">видео</item>
+        <item quantity="many">видео</item>
+        <item quantity="other">видео</item>
+    </plurals>
+    <plurals name="unit_page">
+        <item quantity="one">страница</item>
+        <item quantity="few">страницы</item>
+        <item quantity="many">страниц</item>
+        <item quantity="other">страницы</item>
+    </plurals>
+    <plurals name="unit_track">
+        <item quantity="one">дорожка</item>
+        <item quantity="few">дорожки</item>
+        <item quantity="many">дорожек</item>
+        <item quantity="other">дорожки</item>
+    </plurals>
+    <plurals name="unit_conversion">
+        <item quantity="one">конвертация</item>
+        <item quantity="few">конвертации</item>
+        <item quantity="many">конвертаций</item>
+        <item quantity="other">конвертации</item>
+    </plurals>
+    <plurals name="unit_scan">
+        <item quantity="one">скан</item>
+        <item quantity="few">скана</item>
+        <item quantity="many">сканов</item>
+        <item quantity="other">скана</item>
+    </plurals>
+
+</resources>

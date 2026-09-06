@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «zh-Hans». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="picker_action">下一步 · %1$s</string>
+    <string name="picker_action_with_size">下一步 · %1$s，%2$s</string>
+    <string name="picker_denied_title">无法访问图库</string>
+    <string name="picker_denied_hint">Slimly 只处理你自己选择的文件。请在设置中授予访问权限。</string>
+    <string name="picker_denied_action">打开设置</string>
+    <string name="picker_empty_title">没有可显示的内容</string>
+    <string name="picker_empty_hint">该相册中没有 Slimly 能处理的文件</string>
+    <string name="picker_empty_limited">只显示你选择的文件。可在设置中添加更多。</string>
+    <string name="format_section_title">格式</string>
+    <string name="format_from">从</string>
+    <string name="format_to">到</string>
+    <string name="stage_compressing">正在压缩</string>
+    <string name="stage_converting">正在转换</string>
+    <string name="stage_extracting">正在提取</string>
+    <string name="stage_scanning">正在扫描</string>
+    <string name="progress_estimating">%1$s · 估算中</string>
+    <string name="progress_remaining">剩余 %1$s · %2$s</string>
+    <string name="progress_cancel">取消</string>
+    <string name="stage_compression_done">已压缩</string>
+    <string name="stage_conversion_done">已转换</string>
+    <string name="stage_audio_done">已提取</string>
+    <string name="stage_scan_done">已扫描</string>
+    <string name="summary_freed">释放了 %1$s</string>
+    <string name="summary_dense">%1$s · 本就很紧凑</string>
+    <string name="summary_originals_untouched">原件保持不变</string>
+    <string name="outcome_failed">无法处理</string>
+    <string name="outcome_done">完成</string>
+    <string name="outcome_track_size">音轨 %1$s</string>
+    <string name="outcome_rename_file">重命名文件 %1$s</string>
+    <string name="outcome_delete_originals">删除原件 · %1$s</string>
+    <string name="outcome_share_file">共享文件 %1$s</string>
+    <string name="outcome_share_all">全部共享 · %1$d</string>
+    <string name="save_to_gallery">保存到图库</string>
+    <string name="save_to_files">存储到“文件”</string>
+    <string name="save_hint">原件保持不变</string>
+    <string name="save_done">已保存到图库</string>
+    <string name="save_files_done">已存储到“文件”</string>
+    <string name="save_files_folder">已存储到“文件”中的“Slimly”文件夹</string>
+    <string name="save_partial">部分文件未能保存</string>
+    <string name="save_failed">保存失败</string>
+    <string name="hint_compression">轻点文件即可对比处理前后</string>
+    <string name="hint_preview">轻点文件即可打开预览</string>
+    <string name="preview_before_title">原件 · %1$s</string>
+    <string name="preview_after_title">压缩后 · %1$s</string>
+    <string name="preview_before_caption">原件 · %1$s</string>
+    <string name="preview_after_caption">处理后 · %1$s</string>
+    <string name="preview_compression">图库中的副本，体积减少了 %1$s。原件未被改动。</string>
+    <string name="preview_conversion">图库中已生成的 %1$s。原件保持原样。</string>
+    <string name="preview_scan">已生成的 %1$s — 它同时位于“文件”的 Slimly 文件夹中。</string>
+    <string name="preview_audio">已生成的音轨 — 位于“文件”的 Slimly 文件夹中。视频未被改动。</string>
+    <string name="preview_source_compare">图库中的原件 — 用于对比。</string>
+    <string name="preview_source_note">图库中的原件 — 这是它现在的样子。处理不会改动它，结果会是另一个文件。</string>
+    <string name="preview_track">视频音轨</string>
+    <string name="preview_track_time">视频音轨 · %1$s</string>
+    <string name="badge_compressed">压缩副本</string>
+    <string name="badge_document">文稿</string>
+    <string name="badge_original">原件</string>
+    <string name="badge_result">结果</string>
+    <string name="badge_track">音轨</string>
+    <string name="preview_open">用其他应用打开</string>
+    <string name="rename_title">新名称</string>
+    <string name="rename_field">文件名</string>
+    <string name="rename_apply">重命名</string>
+    <string name="rename_cancel">取消</string>
+    <string name="rename_note">扩展名 %1$s 保持不变</string>
+    <string name="rename_failed">无法重命名</string>
+
+</resources>

@@ -17,12 +17,30 @@ enum class SlimlyModule(val path: String) {
     // Core
     Core(":core"),
     DesignSystem(":designsystem"),
+    Navigation(":navigation"),
+    Firebase(":firebase"),
+    MediaKit(":mediakit"),
+    MediaFlow(":mediaflow"),
+    Shortcuts(":shortcuts"),
+    Widget(":widget"),
 
     // Features: пара `:api` и `:impl` вместо иосных `Interface` и `Sources`.
     HomeApi(":feature:home:api"),
     Home(":feature:home:impl"),
     ProfileApi(":feature:profile:api"),
     Profile(":feature:profile:impl"),
+    CompressApi(":feature:compress:api"),
+    Compress(":feature:compress:impl"),
+    ConvertApi(":feature:convert:api"),
+    Convert(":feature:convert:impl"),
+    OnboardingApi(":feature:onboarding:api"),
+    Onboarding(":feature:onboarding:impl"),
+    AudioApi(":feature:audio:api"),
+    Audio(":feature:audio:impl"),
+    ScanApi(":feature:scan:api"),
+    Scan(":feature:scan:impl"),
+    DebugApi(":feature:debug:api"),
+    Debug(":feature:debug:impl"),
 
     // Composition root
     App(":app"),
@@ -32,9 +50,11 @@ enum class SlimlyModule(val path: String) {
 
     val kind: Kind
         get() = when (this) {
-            Core, DesignSystem -> Kind.CORE
-            HomeApi, ProfileApi -> Kind.FEATURE_API
-            Home, Profile -> Kind.FEATURE
+            Core, DesignSystem, Navigation, Firebase, MediaKit, MediaFlow, Shortcuts, Widget -> Kind.CORE
+            HomeApi, ProfileApi, CompressApi, ConvertApi, OnboardingApi, AudioApi, ScanApi, DebugApi ->
+                Kind.FEATURE_API
+
+            Home, Profile, Compress, Convert, Onboarding, Audio, Scan, Debug -> Kind.FEATURE
             App -> Kind.APP
         }
 
@@ -52,15 +72,86 @@ enum class SlimlyModule(val path: String) {
         get() = when (this) {
             Core -> emptyList()
             DesignSystem -> listOf(Core)
-            // Интерфейс фичи знает только модели из core: маршрут несёт данные,
-            // но не умеет рисовать и не тянет за собой дизайн-систему.
-            HomeApi -> listOf(Core)
-            Home -> listOf(Core, DesignSystem, HomeApi)
-            ProfileApi -> listOf(Core)
-            Profile -> listOf(Core, DesignSystem, ProfileApi)
+            // Роутер рисует себя сам — заглушка неразрешённого маршрута
+            // и шторка берут цвета оттуда же, откуда экраны.
+            Navigation -> listOf(Core, DesignSystem)
+            // Firebase виден приложению только через протоколы из core:
+            // ни один SDK за границу модуля не выходит.
+            Firebase -> listOf(Core)
+            // Единственный модуль, знающий MediaStore и кодировщики. Наружу
+            // отдаёт только реализации контрактов из core — как и Firebase.
+            MediaKit -> listOf(Core)
+            // Общие шаги обработки. MediaKit сюда не входит намеренно:
+            // шаги работают с контрактом медиатеки, а не с MediaStore.
+            MediaFlow -> listOf(Core, DesignSystem, Navigation)
+            // Каталог инструментов — чистые данные: подписи, значки и адреса.
+            // Ни одного экрана, поэтому и дизайн-системы ему не нужно.
+            Shortcuts -> listOf(Core)
+            // Виджет рисуется не Compose, а Glance, и живёт в чужом процессе.
+            // Фичи ему не видны вовсе: инструмент он открывает ссылкой.
+            Widget -> listOf(Core, DesignSystem, Shortcuts)
+            // Интерфейс фичи знает модели из core и тип маршрута из навигации:
+            // маршрут несёт данные, но не умеет рисовать и не тянет за собой
+            // дизайн-систему.
+            HomeApi -> listOf(Core, Navigation)
+            // Главная умеет открыть профиль — но видит от него только маршрут.
+            Home -> listOf(Core, DesignSystem, Navigation, HomeApi, ProfileApi)
+            ProfileApi -> listOf(Core, Navigation)
+            Profile -> listOf(Core, DesignSystem, Navigation, ProfileApi)
+            CompressApi -> listOf(Core, Navigation)
+            // Своего у сжатия — одна шторка со степенью: остальные шаги общие
+            // и приходят из :mediaflow.
+            Compress -> listOf(Core, DesignSystem, Navigation, MediaFlow, CompressApi)
+            ConvertApi -> listOf(Core, Navigation)
+            // Конвертации своих экранов не досталось вовсе: и выбор формата
+            // общий — у неё только состав шагов.
+            Convert -> listOf(Core, Navigation, MediaFlow, ConvertApi)
+            OnboardingApi -> listOf(Core, Navigation)
+            // Тур заканчивается сменой корня на главный экран, но какая фича
+            // за ним стоит, ему знать незачем: маршрут приходит параметром.
+            Onboarding -> listOf(Core, DesignSystem, Navigation, OnboardingApi)
+            AudioApi -> listOf(Core, Navigation)
+            // Как и у конвертации, своих экранов нет: все четыре шага общие,
+            // а фича задаёт только их состав.
+            Audio -> listOf(Core, Navigation, MediaFlow, AudioApi)
+            ScanApi -> listOf(Core, Navigation)
+            // Единственный инструмент со своими экранами поверх общих шагов:
+            // съёмка страниц и правка границ есть только у него. Камеру
+            // и поиск листа он получает контрактами из core — про `:mediakit`
+            // фиче знать незачем, как и всем остальным.
+            Scan -> listOf(Core, DesignSystem, Navigation, MediaFlow, ScanApi)
+            DebugApi -> listOf(Core, Navigation)
+            // Сервисный экран: подмены, значения конфига и журнал аналитики
+            // — всё это уже лежит в `:core`, и своего у меню только показ.
+            Debug -> listOf(Core, DesignSystem, Navigation, DebugApi)
             // Composition root видит всех: он собирает граф зависимостей
             // и раздаёт фичам их резолверы.
-            App -> listOf(Core, DesignSystem, HomeApi, Home, ProfileApi, Profile)
+            App -> listOf(
+                Core,
+                DesignSystem,
+                Navigation,
+                Firebase,
+                MediaKit,
+                MediaFlow,
+                Shortcuts,
+                Widget,
+                HomeApi,
+                Home,
+                ProfileApi,
+                Profile,
+                CompressApi,
+                Compress,
+                ConvertApi,
+                Convert,
+                OnboardingApi,
+                Onboarding,
+                AudioApi,
+                Audio,
+                ScanApi,
+                Scan,
+                DebugApi,
+                Debug,
+            )
         }
 
     companion object {

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «es». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="intro_title">Escaneo de documentos</string>
+    <string name="intro_note">Encontramos los bordes de la hoja, enderezamos la página y componemos un PDF; el marco se puede ajustar a mano</string>
+    <string name="intro_camera">Usar la cámara</string>
+    <string name="intro_camera_hint">Los bordes se detectan al vuelo; puedes ajustarlos después</string>
+    <string name="intro_library">Elegir fotos</string>
+    <string name="intro_library_hint">Hasta %1$d páginas de tu fototeca</string>
+    <string name="camera_cancel">Cancelar</string>
+    <string name="camera_flash_auto">Auto</string>
+    <string name="camera_flash_on">Sí</string>
+    <string name="camera_flash">Flash: %1$s</string>
+    <string name="camera_auto_capture">Captura automática</string>
+    <string name="camera_manual">Manual</string>
+    <string name="camera_manual_hint">Modo manual · pulsa el disparador</string>
+    <string name="camera_aim_hint">Apunta la cámara a una página</string>
+    <string name="camera_bounds_found">Bordes detectados · mantén firme</string>
+    <string name="camera_limit_reached">Límite alcanzado: %1$s</string>
+    <string name="camera_limit_spoken">Como máximo %1$s a la vez</string>
+    <string name="camera_page_captured">Página %1$d capturada</string>
+    <string name="camera_first_page">Fotografía la primera página</string>
+    <string name="camera_shutter">Fotografiar una página</string>
+    <string name="camera_done">Listo</string>
+    <string name="camera_done_count">Listo · %1$d</string>
+    <string name="camera_denied_title">Sin acceso a la cámara</string>
+    <string name="camera_denied_note">Permite la cámara en Ajustes: las páginas se pueden fotografiar o elegir de la fototeca</string>
+    <string name="camera_open_settings">Abrir Ajustes</string>
+    <string name="picker_title">Páginas del escaneo</string>
+    <string name="picker_hint">El orden de las páginas es el orden en que las elijas</string>
+    <string name="pages_title">Bordes de las páginas</string>
+    <string name="pages_subtitle">Página %1$d de %2$d · %3$s</string>
+    <string name="pages_searching">Buscando los bordes de la hoja…</string>
+    <string name="pages_not_found">No se hallaron bordes: arrastra las esquinas hasta el borde de la página</string>
+    <string name="pages_adjust_hint">Arrastra las esquinas si el marco no coincide con el borde</string>
+    <string name="pages_reset">Restablecer</string>
+    <string name="pages_no_crop">Sin recorte</string>
+    <string name="pages_action">Siguiente · %1$s</string>
+    <string name="status_searching">buscando la hoja</string>
+    <string name="status_found">hoja encontrada</string>
+    <string name="status_not_found">hoja no encontrada</string>
+    <string name="status_adjusted">marco ajustado</string>
+    <string name="format_title">Cómo componer el escaneo</string>
+    <string name="format_note">El encuadre se endereza según los bordes elegidos y el fondo se lleva a blanco. El b/n da el texto más nítido; el color hace falta para sellos e imágenes. El documento se podrá guardar en Archivos: los originales se quedan en la fototeca.</string>
+    <string name="format_action">Componer el escaneo</string>
+    <string name="format_source">Foto</string>
+
+</resources>

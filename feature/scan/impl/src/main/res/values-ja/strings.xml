@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ja». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="intro_title">書類のスキャン</string>
+    <string name="intro_note">用紙の境界を見つけてページを補正し、PDF にまとめます — 枠は手で調整できます</string>
+    <string name="intro_camera">カメラで撮る</string>
+    <string name="intro_camera_hint">境界はその場で検出し、あとから調整できます</string>
+    <string name="intro_library">写真を選ぶ</string>
+    <string name="intro_library_hint">ライブラリから最大 %1$d ページ</string>
+    <string name="camera_cancel">キャンセル</string>
+    <string name="camera_flash_auto">自動</string>
+    <string name="camera_flash_on">オン</string>
+    <string name="camera_flash">フラッシュ: %1$s</string>
+    <string name="camera_auto_capture">自動撮影</string>
+    <string name="camera_manual">手動</string>
+    <string name="camera_manual_hint">手動モード · シャッターを押してください</string>
+    <string name="camera_aim_hint">ページにカメラを向けてください</string>
+    <string name="camera_bounds_found">境界を検出 · 動かさないでください</string>
+    <string name="camera_limit_reached">上限に達しました — %1$s</string>
+    <string name="camera_limit_spoken">一度に最大 %1$s まで</string>
+    <string name="camera_page_captured">%1$d ページ目を撮影しました</string>
+    <string name="camera_first_page">最初のページを撮ってください</string>
+    <string name="camera_shutter">ページを撮影</string>
+    <string name="camera_done">完了</string>
+    <string name="camera_done_count">完了 · %1$d</string>
+    <string name="camera_denied_title">カメラにアクセスできません</string>
+    <string name="camera_denied_note">「設定」でカメラを許可してください — ページは撮影するかライブラリから選べます</string>
+    <string name="camera_open_settings">設定を開く</string>
+    <string name="picker_title">スキャンするページ</string>
+    <string name="picker_hint">ページの順序は選んだ順になります</string>
+    <string name="pages_title">ページの境界</string>
+    <string name="pages_subtitle">%2$d ページ中 %1$d ページ目 · %3$s</string>
+    <string name="pages_searching">用紙の境界を探しています…</string>
+    <string name="pages_not_found">境界が見つかりません — 角をページの端までドラッグしてください</string>
+    <string name="pages_adjust_hint">枠が端からずれていたら角をドラッグしてください</string>
+    <string name="pages_reset">リセット</string>
+    <string name="pages_no_crop">トリミングなし</string>
+    <string name="pages_action">次へ · %1$s</string>
+    <string name="status_searching">用紙を探しています</string>
+    <string name="status_found">用紙を検出しました</string>
+    <string name="status_not_found">用紙が見つかりません</string>
+    <string name="status_adjusted">枠を調整しました</string>
+    <string name="format_title">スキャンの組み立て方</string>
+    <string name="format_note">選んだ境界に沿って傾きを補正し、背景を白に整えます。白黒が最も鮮明で、色は印影や図版に必要です。書類は「ファイル」に保存でき、オリジナルはライブラリに残ります。</string>
+    <string name="format_action">スキャンを作成</string>
+    <string name="format_source">写真</string>
+
+</resources>

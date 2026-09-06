@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «zh-Hans». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="compress_kicker">压缩</string>
+    <string name="compress_title">不删任何东西也能腾出空间</string>
+    <string name="compress_text">选择照片和视频、设定压缩程度，我们会展示处理前后的体积和画面对比。原件会一直保留，直到你自己删除。</string>
+    <string name="compress_sample">1.4 GB → 590 MB</string>
+    <string name="convert_kicker">转换</string>
+    <string name="convert_title">任何格式，应对任何需求</string>
+    <string name="convert_text">HEIC、JPEG、PNG、H.264、HEVC — 一次处理整批，并保留拍摄日期和位置信息。</string>
+    <string name="audio_kicker">音频</string>
+    <string name="audio_title">把视频里的声音取出来</string>
+    <string name="audio_text">讲座、访谈、视频里的语音 — 我们保存为 M4A 或 WAV，不做多余的重新编码。</string>
+    <string name="audio_sample">M4A · 4.2 MB</string>
+    <string name="scan_kicker">扫描</string>
+    <string name="scan_title">一次拍摄，文稿变 PDF</string>
+    <string name="scan_text">连续拍摄页面：边界自动识别，画面自动校正，最后汇成一个 PDF。</string>
+    <string name="tour_next">下一步</string>
+    <string name="tour_start">开始</string>
+    <string name="tour_skip">跳过</string>
+    <string name="tour_close">关闭</string>
+
+</resources>

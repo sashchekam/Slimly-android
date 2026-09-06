@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «pt-BR». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="intro_title">Digitalização de documentos</string>
+    <string name="intro_note">Encontramos as bordas da folha, endireitamos a página e montamos um PDF — o quadro pode ser ajustado à mão</string>
+    <string name="intro_camera">Usar a câmera</string>
+    <string name="intro_camera_hint">As bordas são detectadas na hora; dá para ajustar depois</string>
+    <string name="intro_library">Escolher fotos</string>
+    <string name="intro_library_hint">Até %1$d páginas da sua fototeca</string>
+    <string name="camera_cancel">Cancelar</string>
+    <string name="camera_flash_auto">Auto</string>
+    <string name="camera_flash_on">Sim</string>
+    <string name="camera_flash">Flash: %1$s</string>
+    <string name="camera_auto_capture">Captura automática</string>
+    <string name="camera_manual">Manual</string>
+    <string name="camera_manual_hint">Modo manual · toque no disparador</string>
+    <string name="camera_aim_hint">Aponte a câmera para uma página</string>
+    <string name="camera_bounds_found">Bordas encontradas · segure firme</string>
+    <string name="camera_limit_reached">Limite atingido — %1$s</string>
+    <string name="camera_limit_spoken">No máximo %1$s por vez</string>
+    <string name="camera_page_captured">Página %1$d capturada</string>
+    <string name="camera_first_page">Fotografe a primeira página</string>
+    <string name="camera_shutter">Fotografar uma página</string>
+    <string name="camera_done">OK</string>
+    <string name="camera_done_count">OK · %1$d</string>
+    <string name="camera_denied_title">Sem acesso à câmera</string>
+    <string name="camera_denied_note">Permita a câmera nos Ajustes — as páginas podem ser fotografadas ou escolhidas na fototeca</string>
+    <string name="camera_open_settings">Abrir Ajustes</string>
+    <string name="picker_title">Páginas da digitalização</string>
+    <string name="picker_hint">A ordem das páginas segue a ordem de seleção</string>
+    <string name="pages_title">Bordas das páginas</string>
+    <string name="pages_subtitle">Página %1$d de %2$d · %3$s</string>
+    <string name="pages_searching">Procurando as bordas da folha…</string>
+    <string name="pages_not_found">Nenhuma borda encontrada — arraste os cantos até a borda da página</string>
+    <string name="pages_adjust_hint">Arraste os cantos se o quadro passou da borda</string>
+    <string name="pages_reset">Redefinir</string>
+    <string name="pages_no_crop">Sem corte</string>
+    <string name="pages_action">Avançar · %1$s</string>
+    <string name="status_searching">procurando a folha</string>
+    <string name="status_found">folha encontrada</string>
+    <string name="status_not_found">folha não encontrada</string>
+    <string name="status_adjusted">quadro ajustado</string>
+    <string name="format_title">Como montar a digitalização</string>
+    <string name="format_note">O enquadramento é endireitado pelas bordas escolhidas e o fundo vai para o branco. O p/b dá o texto mais nítido; a cor serve para carimbos e imagens. O documento poderá ser salvo em Arquivos — os originais ficam na fototeca.</string>
+    <string name="format_action">Montar a digitalização</string>
+    <string name="format_source">Foto</string>
+
+</resources>

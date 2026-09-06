@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «es». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="profile_title">Perfil</string>
+    <string name="profile_library">en la fototeca</string>
+    <string name="profile_free">libre</string>
+    <string name="profile_compressed">comprimido por nosotros</string>
+    <string name="profile_now">ahora %1$s</string>
+    <string name="profile_was">antes %1$s</string>
+    <string name="profile_usage">qué has usado</string>
+    <string name="profile_over">en %1$s</string>
+    <string name="profile_all_statistics">Todas las estadísticas</string>
+    <string name="profile_version">Versión</string>
+    <string name="profile_debug_countdown">%1$d más y se abre el menú Debug</string>
+    <string name="profile_gallery_access">Acceso a la galería</string>
+    <string name="language_title">Idioma</string>
+    <string name="permission_authorized">Todas las fotos</string>
+    <string name="permission_limited">Fotos seleccionadas</string>
+    <string name="permission_denied">Denegado</string>
+    <string name="permission_not_determined">Sin solicitar</string>
+    <string name="statistics_title">Estadísticas</string>
+    <string name="statistics_by_tool">operaciones por herramienta</string>
+    <string name="statistics_total">operaciones en total</string>
+    <string name="statistics_empty">Aquí aparecerá el desglose por herramienta, en cuanto comprimas o conviertas algo.</string>
+    <string name="statistics_empty_period">En este periodo no se procesó nada. Prueba con uno más largo.</string>
+    <string name="statistics_privacy">Las estadísticas se calculan en el dispositivo y no se envían a ningún sitio.</string>
+    <string name="summary_compression">Liberado %1$s — ganancia media %2$s.</string>
+    <string name="summary_conversion_pair">Casi siempre %1$s, menos %2$s.</string>
+    <string name="summary_conversion_single">Siempre el mismo par: %1$s.</string>
+    <string name="summary_conversion_unknown">El sistema no indicó ningún par «de → a».</string>
+    <string name="summary_audio">Pistas guardadas en %1$s, %2$s en total.</string>
+    <string name="summary_scan">%1$s, de media %2$s por documento.</string>
+    <string name="empty_compression">En este periodo no se comprimió nada.</string>
+    <string name="empty_conversion">En este periodo no se convirtió nada.</string>
+    <string name="empty_audio">En este periodo no se extrajo audio.</string>
+    <string name="empty_scan">En este periodo no se escaneó nada.</string>
+    <string name="fact_freed">liberado</string>
+    <string name="fact_average_gain">ganancia media</string>
+    <string name="fact_common_pair">par frecuente</string>
+    <string name="fact_mix">composición</string>
+    <string name="fact_duration">duración</string>
+    <string name="fact_main_format">formato principal</string>
+    <string name="fact_captured">capturadas</string>
+    <string name="fact_format">formato</string>
+
+</resources>

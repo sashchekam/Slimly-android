@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «zh-Hans». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="profile_title">个人资料</string>
+    <string name="profile_library">图库中</string>
+    <string name="profile_free">可用</string>
+    <string name="profile_compressed">我们压缩的</string>
+    <string name="profile_now">现在 %1$s</string>
+    <string name="profile_was">此前 %1$s</string>
+    <string name="profile_usage">你用过什么</string>
+    <string name="profile_over">近 %1$s</string>
+    <string name="profile_all_statistics">全部统计</string>
+    <string name="profile_version">版本</string>
+    <string name="profile_debug_countdown">再按 %1$d 次就会打开 Debug 菜单</string>
+    <string name="profile_gallery_access">图库访问权限</string>
+    <string name="language_title">语言</string>
+    <string name="permission_authorized">所有照片</string>
+    <string name="permission_limited">已选照片</string>
+    <string name="permission_denied">已拒绝</string>
+    <string name="permission_not_determined">尚未请求</string>
+    <string name="statistics_title">统计</string>
+    <string name="statistics_by_tool">按工具划分的操作</string>
+    <string name="statistics_total">操作总数</string>
+    <string name="statistics_empty">只要你压缩或转换过内容，这里就会出现按工具的明细。</string>
+    <string name="statistics_empty_period">这段时间没有处理任何内容。试试更长的时间段。</string>
+    <string name="statistics_privacy">统计在设备上计算，不会发送到任何地方。</string>
+    <string name="summary_compression">释放了 %1$s — 平均节省 %2$s。</string>
+    <string name="summary_conversion_pair">最常见的是 %1$s，其次是 %2$s。</string>
+    <string name="summary_conversion_single">始终是同一组合：%1$s。</string>
+    <string name="summary_conversion_unknown">系统未给出“从 → 到”的格式组合。</string>
+    <string name="summary_audio">音轨保存为 %1$s，共 %2$s。</string>
+    <string name="summary_scan">%1$s，每份文稿平均 %2$s。</string>
+    <string name="empty_compression">这段时间没有压缩任何内容。</string>
+    <string name="empty_conversion">这段时间没有转换任何内容。</string>
+    <string name="empty_audio">这段时间没有提取音频。</string>
+    <string name="empty_scan">这段时间没有扫描任何内容。</string>
+    <string name="fact_freed">已释放</string>
+    <string name="fact_average_gain">平均节省</string>
+    <string name="fact_common_pair">常见组合</string>
+    <string name="fact_mix">构成</string>
+    <string name="fact_duration">时长</string>
+    <string name="fact_main_format">主要格式</string>
+    <string name="fact_captured">已拍摄</string>
+    <string name="fact_format">格式</string>
+
+</resources>

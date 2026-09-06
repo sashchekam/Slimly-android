@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Подписи инструментов лежат в `:shortcuts`: их показывают и хаб, и ярлыки
+  иконки, и виджет, а называться инструмент должен всюду одинаково.
+-->
 <resources>
+
     <string name="app_name">Slimly</string>
+
 </resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Языки приложения. По этому списку система собирает экран «Язык приложения»
+  в настройках — своего выбора языка приложение не рисует.
+
+  Порядок значения не имеет: система показывает языки по-своему.
+-->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />
+    <locale android:name="de" />
+    <locale android:name="es" />
+    <locale android:name="fr" />
+    <locale android:name="it" />
+    <locale android:name="ja" />
+    <locale android:name="ko" />
+    <locale android:name="pt-BR" />
+    <locale android:name="ru" />
+    <locale android:name="zh-Hans" />
+</locale-config>

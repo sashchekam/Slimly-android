@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «it». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="menu_title">Menu Debug</string>
+    <string name="menu_close">Fine</string>
+    <string name="menu_sections">sezioni</string>
+    <string name="menu_actions">azioni</string>
+    <string name="menu_analytics">Analytics</string>
+    <string name="menu_note">Il menu si apre con cinque tocchi sulla versione nel profilo ed esiste solo nelle build interne — su Google Play non c’è.</string>
+    <string name="menu_open">Apri il menu di debug</string>
+    <string name="knob_failure_title">Errore di elaborazione</string>
+    <string name="knob_failure_note">Ogni file fallisce con il motivo scelto — così si vede l’elenco degli errori nella schermata del risultato</string>
+    <string name="knob_tour_title">Tour introduttivo</string>
+    <string name="knob_tour_note">Il segno che il tour è stato mostrato — toglilo e riavvia l’app per iniziare dal tour</string>
+    <string name="knob_seen">Mostrato</string>
+    <string name="knob_unseen">Non mostrato</string>
+    <string name="knob_tour_marked">Il tour è segnato come mostrato</string>
+    <string name="knob_tour_cleared">Il tour comparirà al prossimo avvio</string>
+    <string name="action_copy_diagnostics">Copia la diagnostica</string>
+    <string name="action_copy_diagnostics_hint">versione, dispositivo, ID</string>
+    <string name="action_copy_diagnostics_done">Diagnostica copiata negli appunti</string>
+    <string name="action_reset_stats">Azzera le statistiche</string>
+    <string name="action_reset_stats_hint">il profilo si azzera</string>
+    <string name="action_reset_stats_done">Statistiche del profilo azzerate</string>
+    <string name="action_reset_knobs">Disattiva tutte le sostituzioni</string>
+    <string name="action_reset_knobs_hint">torna com’è su Google Play</string>
+    <string name="action_reset_knobs_done">Sostituzioni disattivate</string>
+    <string name="config_note">Valori dal server e le sostituzioni locali sopra di essi. Una sostituzione vive solo su questo dispositivo e sopravvive al riavvio, mentre le schermate leggono il valore all’apertura.</string>
+    <string name="config_summary">valori dal server</string>
+    <string name="config_summary_overrides">sostituzioni: %1$d</string>
+    <string name="config_refresh">Aggiorna</string>
+    <string name="config_updated">Valori aggiornati</string>
+    <string name="config_nothing_fetched">Dal server non è arrivato nulla</string>
+    <string name="config_empty">Nessun valore</string>
+    <string name="config_empty_note">La configurazione non è ancora stata caricata, il progetto non ha google-services.json, oppure nella console web non è stato pubblicato alcun parametro.</string>
+    <string name="config_state_remote">dal server</string>
+    <string name="config_state_default">default della chiave</string>
+    <string name="config_state_overridden">sostituito · dal server %1$s</string>
+    <string name="config_state_overridden_only">sostituito · nessun valore sul server</string>
+    <string name="config_value_field">Valore</string>
+    <string name="config_edit_note">Il valore viene sostituito solo su questo dispositivo. Un campo vuoto rimuove la sostituzione.</string>
+    <string name="config_override">Sostituisci</string>
+    <string name="config_restore">Ripristina il valore del server</string>
+    <string name="config_cancel">Annulla</string>
+    <string name="config_override_set">Valore sostituito</string>
+    <string name="config_override_cleared">Sostituzione rimossa</string>
+    <string name="config_clear_all">Rimuovi tutte le sostituzioni</string>
+    <string name="config_all_cleared">Tutte le sostituzioni rimosse</string>
+    <string name="analytics_note">Eventi e proprietà inviati all’analytics da questo avvio. Il log vive in memoria: un riavvio lo cancella, e fino ad allora conserva le ultime %1$d voci.</string>
+    <string name="analytics_summary_empty">vuoto</string>
+    <string name="analytics_summary_records">voci: %1$d</string>
+    <string name="analytics_all">Tutti</string>
+    <string name="analytics_properties">proprietà</string>
+    <string name="analytics_property">proprietà · %1$s</string>
+    <string name="analytics_value_cleared">rimossa</string>
+    <string name="analytics_copy">Copia</string>
+    <string name="analytics_copied">Log copiato</string>
+    <string name="analytics_clear">Svuota</string>
+    <string name="analytics_log_cleared">Log svuotato</string>
+    <string name="analytics_empty">Nessun evento</string>
+    <string name="analytics_empty_note">L’app non ha ancora inviato nulla. Usa un qualsiasi strumento e torna qui — la voce compare subito, non serve aspettare la console web.</string>
+
+</resources>

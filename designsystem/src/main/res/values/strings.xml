@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Своих надписей у дизайн-системы почти нет: подписи ставит экран.
+  Здесь остаётся то, что видно только программе чтения с экрана, —
+  у элемента без текста иначе не было бы вообще никакого имени.
+-->
+<resources>
+
+    <string name="accessibility_compare">Before and after comparison</string>
+
+</resources>

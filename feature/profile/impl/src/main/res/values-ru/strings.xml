@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ru». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="profile_title">Профиль</string>
+    <string name="profile_library">в медиатеке</string>
+    <string name="profile_free">свободно</string>
+    <string name="profile_compressed">сжато нами</string>
+    <string name="profile_now">стало %1$s</string>
+    <string name="profile_was">было %1$s</string>
+    <string name="profile_usage">чем вы пользовались</string>
+    <string name="profile_over">за %1$s</string>
+    <string name="profile_all_statistics">Вся статистика</string>
+    <string name="profile_version">Версия</string>
+    <string name="profile_debug_countdown">Ещё %1$d — и откроется Debug-меню</string>
+    <string name="profile_gallery_access">Доступ к галерее</string>
+    <string name="language_title">Язык</string>
+    <string name="permission_authorized">Все фото</string>
+    <string name="permission_limited">Выбранные фото</string>
+    <string name="permission_denied">Запрещён</string>
+    <string name="permission_not_determined">Не запрошен</string>
+    <string name="statistics_title">Статистика</string>
+    <string name="statistics_by_tool">операции по инструментам</string>
+    <string name="statistics_total">операций всего</string>
+    <string name="statistics_empty">Здесь появится разбор по инструментам — как только вы что-нибудь сожмёте или сконвертируете.</string>
+    <string name="statistics_empty_period">За этот срок ничего не обработано. Попробуйте выбрать период подлиннее.</string>
+    <string name="statistics_privacy">Статистика считается на устройстве и никуда не отправляется.</string>
+    <string name="summary_compression">Освобождено %1$s — средний выигрыш %2$s.</string>
+    <string name="summary_conversion_pair">Чаще всего %1$s, реже %2$s.</string>
+    <string name="summary_conversion_single">Всегда одна и та же пара: %1$s.</string>
+    <string name="summary_conversion_unknown">Пары «из → в» система не назвала.</string>
+    <string name="summary_audio">Дорожки сохранены в %1$s, суммарно %2$s.</string>
+    <string name="summary_scan">%1$s, в среднем %2$s на документ.</string>
+    <string name="empty_compression">За этот срок ничего не сжимали.</string>
+    <string name="empty_conversion">За этот срок ничего не конвертировали.</string>
+    <string name="empty_audio">За этот срок звук не извлекали.</string>
+    <string name="empty_scan">За этот срок ничего не сканировали.</string>
+    <string name="fact_freed">освобождено</string>
+    <string name="fact_average_gain">средний выигрыш</string>
+    <string name="fact_common_pair">частая пара</string>
+    <string name="fact_mix">состав</string>
+    <string name="fact_duration">длительность</string>
+    <string name="fact_main_format">основной формат</string>
+    <string name="fact_captured">снято</string>
+    <string name="fact_format">формат</string>
+
+</resources>

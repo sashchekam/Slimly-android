@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «es». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="menu_title">Menú Debug</string>
+    <string name="menu_close">Listo</string>
+    <string name="menu_sections">secciones</string>
+    <string name="menu_actions">acciones</string>
+    <string name="menu_analytics">Analíticas</string>
+    <string name="menu_note">El menú se abre con cinco toques en la versión del perfil y solo existe en compilaciones internas: en Google Play no está.</string>
+    <string name="menu_open">Abrir el menú de depuración</string>
+    <string name="knob_failure_title">Fallo en el procesamiento</string>
+    <string name="knob_failure_note">Cada archivo falla con el motivo elegido: así se ve la lista de fallos en la pantalla de resultado</string>
+    <string name="knob_tour_title">Tour de bienvenida</string>
+    <string name="knob_tour_note">La marca de que se mostró el tour: quítala y reinicia la app para empezar por el tour</string>
+    <string name="knob_seen">Mostrado</string>
+    <string name="knob_unseen">No mostrado</string>
+    <string name="knob_tour_marked">El tour queda marcado como mostrado</string>
+    <string name="knob_tour_cleared">El tour se mostrará en el próximo arranque</string>
+    <string name="action_copy_diagnostics">Copiar diagnóstico</string>
+    <string name="action_copy_diagnostics_hint">versión, dispositivo, ID</string>
+    <string name="action_copy_diagnostics_done">Diagnóstico copiado al portapapeles</string>
+    <string name="action_reset_stats">Restablecer estadísticas</string>
+    <string name="action_reset_stats_hint">el perfil se pone a cero</string>
+    <string name="action_reset_stats_done">Estadísticas del perfil puestas a cero</string>
+    <string name="action_reset_knobs">Desactivar todas las sustituciones</string>
+    <string name="action_reset_knobs_hint">volver a como viene de Google Play</string>
+    <string name="action_reset_knobs_done">Sustituciones desactivadas</string>
+    <string name="config_note">Valores del servidor y las sustituciones locales encima. Una sustitución vive solo en este dispositivo y sobrevive al reinicio; las pantallas leen el valor al abrirse.</string>
+    <string name="config_summary">valores del servidor</string>
+    <string name="config_summary_overrides">sustituciones: %1$d</string>
+    <string name="config_refresh">Actualizar</string>
+    <string name="config_updated">Valores actualizados</string>
+    <string name="config_nothing_fetched">Del servidor no llegó nada</string>
+    <string name="config_empty">Sin valores</string>
+    <string name="config_empty_note">La configuración aún no se ha cargado, el proyecto no tiene google-services.json o no se ha publicado ningún parámetro en la consola web.</string>
+    <string name="config_state_remote">del servidor</string>
+    <string name="config_state_default">valor por omisión de la clave</string>
+    <string name="config_state_overridden">sustituido · del servidor %1$s</string>
+    <string name="config_state_overridden_only">sustituido · sin valor en el servidor</string>
+    <string name="config_value_field">Valor</string>
+    <string name="config_edit_note">El valor se sustituye solo en este dispositivo. Un campo vacío retira la sustitución.</string>
+    <string name="config_override">Sustituir</string>
+    <string name="config_restore">Restaurar el valor del servidor</string>
+    <string name="config_cancel">Cancelar</string>
+    <string name="config_override_set">Valor sustituido</string>
+    <string name="config_override_cleared">Sustitución retirada</string>
+    <string name="config_clear_all">Retirar todas las sustituciones</string>
+    <string name="config_all_cleared">Todas las sustituciones retiradas</string>
+    <string name="analytics_note">Eventos y propiedades enviados a analíticas desde este arranque. El registro vive en memoria: un reinicio lo borra y hasta entonces guarda las últimas %1$d entradas.</string>
+    <string name="analytics_summary_empty">vacío</string>
+    <string name="analytics_summary_records">registros: %1$d</string>
+    <string name="analytics_all">Todos</string>
+    <string name="analytics_properties">propiedades</string>
+    <string name="analytics_property">propiedad · %1$s</string>
+    <string name="analytics_value_cleared">sin valor</string>
+    <string name="analytics_copy">Copiar</string>
+    <string name="analytics_copied">Registro copiado</string>
+    <string name="analytics_clear">Borrar</string>
+    <string name="analytics_log_cleared">Registro borrado</string>
+    <string name="analytics_empty">Sin eventos</string>
+    <string name="analytics_empty_note">La app aún no ha enviado nada. Usa cualquier herramienta y vuelve aquí: el registro aparece al instante, sin esperar a la consola web.</string>
+
+</resources>

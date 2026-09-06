@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ko». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="unresolved_title">화면을 찾을 수 없습니다</string>
+    <string name="unresolved_description">%1$s에 대한 리졸버가 등록되지 않았습니다</string>
+
+</resources>

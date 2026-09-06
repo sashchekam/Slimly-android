@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «it». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="convert_action">Converti</string>
+    <string name="photo_title">Conversione foto</string>
+    <string name="photo_hint">Il formato si sceglie al passo successivo</string>
+    <string name="photo_format_title">In quale formato</string>
+    <string name="photo_format_note">WebP pesa meno, JPEG va ovunque. PNG è senza perdita ma più pesante dell’originale. Il formato di origine non è in elenco.</string>
+    <string name="photo_format_source">Foto</string>
+    <string name="video_title">Conversione video</string>
+    <string name="video_hint">Il codec si sceglie al passo successivo</string>
+    <string name="video_format_title">Quale codec</string>
+    <string name="video_format_note">HEVC pesa meno, H.264 si apre ovunque. È una ricodifica, non un cambio di estensione — il contenitore resta MP4, il sistema non ne scrive altri.</string>
+    <string name="video_format_source">Video</string>
+
+</resources>

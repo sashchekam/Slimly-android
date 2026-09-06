@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ko». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="intro_title">문서 스캔</string>
+    <string name="intro_note">종이의 경계를 찾아 페이지를 바로잡고 PDF로 만듭니다 — 테두리는 손으로 조정할 수 있습니다</string>
+    <string name="intro_camera">카메라로 촬영</string>
+    <string name="intro_camera_hint">경계는 실시간으로 잡고 나중에 조정할 수 있습니다</string>
+    <string name="intro_library">사진 선택</string>
+    <string name="intro_library_hint">보관함에서 최대 %1$d페이지</string>
+    <string name="camera_cancel">취소</string>
+    <string name="camera_flash_auto">자동</string>
+    <string name="camera_flash_on">켬</string>
+    <string name="camera_flash">플래시: %1$s</string>
+    <string name="camera_auto_capture">자동 촬영</string>
+    <string name="camera_manual">수동</string>
+    <string name="camera_manual_hint">수동 모드 · 셔터를 누르세요</string>
+    <string name="camera_aim_hint">페이지에 카메라를 맞추세요</string>
+    <string name="camera_bounds_found">경계를 찾았습니다 · 그대로 유지하세요</string>
+    <string name="camera_limit_reached">한도에 도달했습니다 — %1$s</string>
+    <string name="camera_limit_spoken">한 번에 최대 %1$s</string>
+    <string name="camera_page_captured">%1$d페이지를 촬영했습니다</string>
+    <string name="camera_first_page">첫 페이지를 촬영하세요</string>
+    <string name="camera_shutter">페이지 촬영</string>
+    <string name="camera_done">완료</string>
+    <string name="camera_done_count">완료 · %1$d</string>
+    <string name="camera_denied_title">카메라에 접근할 수 없습니다</string>
+    <string name="camera_denied_note">설정에서 카메라를 허용하세요 — 페이지는 촬영하거나 보관함에서 고를 수 있습니다</string>
+    <string name="camera_open_settings">설정 열기</string>
+    <string name="picker_title">스캔 페이지</string>
+    <string name="picker_hint">페이지 순서는 선택한 순서를 따릅니다</string>
+    <string name="pages_title">페이지 경계</string>
+    <string name="pages_subtitle">%2$d페이지 중 %1$d페이지 · %3$s</string>
+    <string name="pages_searching">종이 경계를 찾는 중…</string>
+    <string name="pages_not_found">경계를 찾지 못했습니다 — 모서리를 페이지 가장자리로 끌어 주세요</string>
+    <string name="pages_adjust_hint">테두리가 가장자리를 벗어났다면 모서리를 끌어 주세요</string>
+    <string name="pages_reset">초기화</string>
+    <string name="pages_no_crop">자르지 않기</string>
+    <string name="pages_action">다음 · %1$s</string>
+    <string name="status_searching">종이를 찾는 중</string>
+    <string name="status_found">종이를 찾음</string>
+    <string name="status_not_found">종이를 찾지 못함</string>
+    <string name="status_adjusted">테두리 조정됨</string>
+    <string name="format_title">스캔 조립 방식</string>
+    <string name="format_note">선택한 경계에 맞춰 화면을 바로잡고 배경을 흰색으로 정리합니다. 흑백이 글자가 가장 또렷하고, 색은 도장과 그림에 필요합니다. 문서는 파일에 저장할 수 있으며 원본은 보관함에 남습니다.</string>
+    <string name="format_action">스캔 만들기</string>
+    <string name="format_source">사진</string>
+
+</resources>

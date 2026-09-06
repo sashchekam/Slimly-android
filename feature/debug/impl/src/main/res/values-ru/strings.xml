@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ru». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="menu_title">Debug-меню</string>
+    <string name="menu_close">Готово</string>
+    <string name="menu_sections">разделы</string>
+    <string name="menu_actions">действия</string>
+    <string name="menu_analytics">Аналитика</string>
+    <string name="menu_note">Меню открывается пятью нажатиями на версию в профиле и живёт только во внутренних сборках — в Google Play его нет.</string>
+    <string name="menu_open">Открыть отладочное меню</string>
+    <string name="knob_failure_title">Сбой в обработке</string>
+    <string name="knob_failure_note">Каждый файл отваливается с выбранной причиной — так видно список отказов на экране итога</string>
+    <string name="knob_tour_title">Вводный тур</string>
+    <string name="knob_tour_note">Отметка о показе тура — снимите её и перезапустите приложение, чтобы начать с тура</string>
+    <string name="knob_seen">Показан</string>
+    <string name="knob_unseen">Не показан</string>
+    <string name="knob_tour_marked">Тур отмечен показанным</string>
+    <string name="knob_tour_cleared">Тур покажется при следующем запуске</string>
+    <string name="action_copy_diagnostics">Скопировать диагностику</string>
+    <string name="action_copy_diagnostics_hint">версия, устройство, ID</string>
+    <string name="action_copy_diagnostics_done">Диагностика скопирована в буфер</string>
+    <string name="action_reset_stats">Сбросить статистику</string>
+    <string name="action_reset_stats_hint">профиль обнулится</string>
+    <string name="action_reset_stats_done">Статистика профиля обнулена</string>
+    <string name="action_reset_knobs">Выключить все подмены</string>
+    <string name="action_reset_knobs_hint">вернуть как из Google Play</string>
+    <string name="action_reset_knobs_done">Подмены выключены</string>
+    <string name="config_note">Значения с сервера и локальные подмены к ним. Подмена живёт только на этом устройстве и переживает перезапуск, а экраны читают значение в момент открытия.</string>
+    <string name="config_summary">значения с сервера</string>
+    <string name="config_summary_overrides">подмен: %1$d</string>
+    <string name="config_refresh">Обновить</string>
+    <string name="config_updated">Значения обновлены</string>
+    <string name="config_nothing_fetched">С сервера ничего не пришло</string>
+    <string name="config_empty">Значений нет</string>
+    <string name="config_empty_note">Конфиг ещё не загрузился, в проекте нет google-services.json или в веб-консоли не опубликовано ни одного параметра.</string>
+    <string name="config_state_remote">с сервера</string>
+    <string name="config_state_default">умолчание ключа</string>
+    <string name="config_state_overridden">подменено · с сервера %1$s</string>
+    <string name="config_state_overridden_only">подменено · на сервере значения нет</string>
+    <string name="config_value_field">Значение</string>
+    <string name="config_edit_note">Значение подменится только на этом устройстве. Пустое поле снимает подмену.</string>
+    <string name="config_override">Подменить</string>
+    <string name="config_restore">Вернуть серверное</string>
+    <string name="config_cancel">Отмена</string>
+    <string name="config_override_set">Значение подменено</string>
+    <string name="config_override_cleared">Подмена снята</string>
+    <string name="config_clear_all">Снять все подмены</string>
+    <string name="config_all_cleared">Все подмены сняты</string>
+    <string name="analytics_note">События и свойства, ушедшие в аналитику с этого запуска. Журнал живёт в памяти: перезапуск его обнуляет, а до этого хранятся последние %1$d записей.</string>
+    <string name="analytics_summary_empty">пусто</string>
+    <string name="analytics_summary_records">записей: %1$d</string>
+    <string name="analytics_all">Все</string>
+    <string name="analytics_properties">свойства</string>
+    <string name="analytics_property">свойство · %1$s</string>
+    <string name="analytics_value_cleared">снято</string>
+    <string name="analytics_copy">Копировать</string>
+    <string name="analytics_copied">Журнал скопирован</string>
+    <string name="analytics_clear">Очистить</string>
+    <string name="analytics_log_cleared">Журнал очищен</string>
+    <string name="analytics_empty">Событий нет</string>
+    <string name="analytics_empty_note">Приложение ещё ничего не отправило. Пройдите любой инструмент и вернитесь сюда — запись появляется сразу, ждать выгрузки в веб-консоль не нужно.</string>
+
+</resources>

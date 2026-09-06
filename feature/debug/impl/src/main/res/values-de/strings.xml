@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «de». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="menu_title">Debug-Menü</string>
+    <string name="menu_close">Fertig</string>
+    <string name="menu_sections">Bereiche</string>
+    <string name="menu_actions">Aktionen</string>
+    <string name="menu_analytics">Analytics</string>
+    <string name="menu_note">Das Menü öffnet sich mit fünf Tipps auf die Version im Profil und existiert nur in internen Builds – bei Google Play gibt es das nicht.</string>
+    <string name="menu_open">Debug-Menü öffnen</string>
+    <string name="knob_failure_title">Verarbeitungsfehler</string>
+    <string name="knob_failure_note">Jede Datei scheitert mit dem gewählten Grund – so wird die Fehlerliste auf dem Ergebnisbildschirm sichtbar</string>
+    <string name="knob_tour_title">Einführungstour</string>
+    <string name="knob_tour_note">Die Markierung, dass die Tour gezeigt wurde – entferne sie und starte die App neu, um mit der Tour zu beginnen</string>
+    <string name="knob_seen">Gezeigt</string>
+    <string name="knob_unseen">Nicht gezeigt</string>
+    <string name="knob_tour_marked">Die Tour gilt als gezeigt</string>
+    <string name="knob_tour_cleared">Die Tour erscheint beim nächsten Start</string>
+    <string name="action_copy_diagnostics">Diagnose kopieren</string>
+    <string name="action_copy_diagnostics_hint">Version, Gerät, ID</string>
+    <string name="action_copy_diagnostics_done">Diagnose in die Zwischenablage kopiert</string>
+    <string name="action_reset_stats">Statistik zurücksetzen</string>
+    <string name="action_reset_stats_hint">das Profil wird genullt</string>
+    <string name="action_reset_stats_done">Profilstatistik genullt</string>
+    <string name="action_reset_knobs">Alle Überschreibungen aus</string>
+    <string name="action_reset_knobs_hint">zurück zum Google-Play-Zustand</string>
+    <string name="action_reset_knobs_done">Überschreibungen aus</string>
+    <string name="config_note">Werte vom Server und die lokalen Überschreibungen darüber. Eine Überschreibung lebt nur auf diesem Gerät und übersteht einen Neustart, die Bildschirme lesen den Wert beim Öffnen.</string>
+    <string name="config_summary">Werte vom Server</string>
+    <string name="config_summary_overrides">Überschreibungen: %1$d</string>
+    <string name="config_refresh">Aktualisieren</string>
+    <string name="config_updated">Werte aktualisiert</string>
+    <string name="config_nothing_fetched">Vom Server kam nichts</string>
+    <string name="config_empty">Keine Werte</string>
+    <string name="config_empty_note">Die Konfiguration ist noch nicht geladen, im Projekt fehlt google-services.json, oder in der Web-Konsole wurde kein Parameter veröffentlicht.</string>
+    <string name="config_state_remote">vom Server</string>
+    <string name="config_state_default">Standard des Schlüssels</string>
+    <string name="config_state_overridden">überschrieben · vom Server %1$s</string>
+    <string name="config_state_overridden_only">überschrieben · kein Wert auf dem Server</string>
+    <string name="config_value_field">Wert</string>
+    <string name="config_edit_note">Der Wert wird nur auf diesem Gerät überschrieben. Ein leeres Feld entfernt die Überschreibung.</string>
+    <string name="config_override">Überschreiben</string>
+    <string name="config_restore">Serverwert zurückholen</string>
+    <string name="config_cancel">Abbrechen</string>
+    <string name="config_override_set">Wert überschrieben</string>
+    <string name="config_override_cleared">Überschreibung entfernt</string>
+    <string name="config_clear_all">Alle Überschreibungen entfernen</string>
+    <string name="config_all_cleared">Alle Überschreibungen entfernt</string>
+    <string name="analytics_note">Ereignisse und Eigenschaften, die seit diesem Start an die Analytik gingen. Das Log liegt im Speicher: ein Neustart löscht es, bis dahin bleiben die letzten %1$d Einträge.</string>
+    <string name="analytics_summary_empty">leer</string>
+    <string name="analytics_summary_records">Einträge: %1$d</string>
+    <string name="analytics_all">Alle</string>
+    <string name="analytics_properties">Eigenschaften</string>
+    <string name="analytics_property">Eigenschaft · %1$s</string>
+    <string name="analytics_value_cleared">entfernt</string>
+    <string name="analytics_copy">Kopieren</string>
+    <string name="analytics_copied">Log kopiert</string>
+    <string name="analytics_clear">Leeren</string>
+    <string name="analytics_log_cleared">Log geleert</string>
+    <string name="analytics_empty">Keine Ereignisse</string>
+    <string name="analytics_empty_note">Die App hat noch nichts gesendet. Nutze irgendein Werkzeug und komm zurück – der Eintrag erscheint sofort, auf die Web-Konsole muss man nicht warten.</string>
+
+</resources>

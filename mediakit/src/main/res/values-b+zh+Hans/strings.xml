@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «zh-Hans». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="album_recent">最近项目</string>
+    <string name="failure_unreadable_source">无法读取文件</string>
+    <string name="failure_unsupported_format">不支持 %1$s 格式</string>
+    <string name="failure_write_failed">无法写入结果：%1$s</string>
+    <string name="failure_result_missing">没有可保存的内容：结果已丢失</string>
+    <string name="failure_unsupported_operation">此工具无法处理该文件</string>
+    <string name="failure_video_target">视频无法转换为 %1$s</string>
+    <string name="failure_photo_target">照片无法转换为 %1$s</string>
+    <string name="failure_audio_from_photo">只能从视频中提取音频</string>
+    <string name="failure_no_audio_track">视频中没有音频</string>
+    <string name="failure_camera_unavailable">此设备无法使用相机</string>
+    <string name="failure_capture_failed">拍摄失败：%1$s</string>
+    <string name="failure_pdf_assembly">无法用这些页面生成 PDF</string>
+    <string name="scan_file_name">扫描 %1$s.pdf</string>
+    <string name="notification_channel">处理</string>
+    <string name="notification_working">处理中…</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ja». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="album_recent">最近の項目</string>
+    <string name="failure_unreadable_source">ファイルを読み取れませんでした</string>
+    <string name="failure_unsupported_format">%1$s 形式には対応していません</string>
+    <string name="failure_write_failed">結果を書き込めませんでした: %1$s</string>
+    <string name="failure_result_missing">保存するものがありません。結果が失われました</string>
+    <string name="failure_unsupported_operation">このツールではこのファイルを処理できません</string>
+    <string name="failure_video_target">ビデオを %1$s に変換できません</string>
+    <string name="failure_photo_target">写真を %1$s に変換できません</string>
+    <string name="failure_audio_from_photo">音声はビデオからのみ抽出できます</string>
+    <string name="failure_no_audio_track">ビデオに音声がありません</string>
+    <string name="failure_camera_unavailable">このデバイスではカメラを利用できません</string>
+    <string name="failure_capture_failed">撮影に失敗しました: %1$s</string>
+    <string name="failure_pdf_assembly">ページからPDFを作成できませんでした</string>
+    <string name="scan_file_name">スキャン %1$s.pdf</string>
+    <string name="notification_channel">処理</string>
+    <string name="notification_working">処理中…</string>
+
+</resources>

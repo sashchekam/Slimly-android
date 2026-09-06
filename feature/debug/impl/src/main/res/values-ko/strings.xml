@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ko». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="menu_title">디버그 메뉴</string>
+    <string name="menu_close">완료</string>
+    <string name="menu_sections">섹션</string>
+    <string name="menu_actions">동작</string>
+    <string name="menu_analytics">애널리틱스</string>
+    <string name="menu_note">메뉴는 프로필의 버전을 다섯 번 탭하면 열리며 내부 빌드에만 있습니다 — Google Play 버전에는 없습니다.</string>
+    <string name="menu_open">디버그 메뉴 열기</string>
+    <string name="knob_failure_title">처리 실패</string>
+    <string name="knob_failure_note">선택한 이유로 모든 파일이 실패합니다 — 결과 화면의 실패 목록을 볼 수 있습니다</string>
+    <string name="knob_tour_title">소개 투어</string>
+    <string name="knob_tour_note">투어를 보여줬다는 표시입니다 — 해제하고 앱을 다시 실행하면 투어부터 시작합니다</string>
+    <string name="knob_seen">표시됨</string>
+    <string name="knob_unseen">표시되지 않음</string>
+    <string name="knob_tour_marked">투어를 표시됨으로 설정했습니다</string>
+    <string name="knob_tour_cleared">다음 실행 때 투어가 표시됩니다</string>
+    <string name="action_copy_diagnostics">진단 정보 복사</string>
+    <string name="action_copy_diagnostics_hint">버전, 기기, ID</string>
+    <string name="action_copy_diagnostics_done">진단 정보를 클립보드에 복사했습니다</string>
+    <string name="action_reset_stats">통계 초기화</string>
+    <string name="action_reset_stats_hint">프로필이 0으로 초기화됩니다</string>
+    <string name="action_reset_stats_done">프로필 통계를 0으로 초기화했습니다</string>
+    <string name="action_reset_knobs">모든 재정의 끄기</string>
+    <string name="action_reset_knobs_hint">Google Play 배포 상태로 되돌리기</string>
+    <string name="action_reset_knobs_done">재정의를 껐습니다</string>
+    <string name="config_note">서버 값과 그 위에 얹은 로컬 재정의입니다. 재정의는 이 기기에만 남고 재실행 후에도 유지되며, 화면은 열릴 때의 값을 읽습니다.</string>
+    <string name="config_summary">서버 값</string>
+    <string name="config_summary_overrides">재정의: %1$d</string>
+    <string name="config_refresh">새로고침</string>
+    <string name="config_updated">값을 업데이트했습니다</string>
+    <string name="config_nothing_fetched">서버에서 아무것도 오지 않았습니다</string>
+    <string name="config_empty">값 없음</string>
+    <string name="config_empty_note">설정이 아직 로드되지 않았거나, 프로젝트에 google-services.json가 없거나, 웹 콘솔에 게시된 매개변수가 하나도 없습니다.</string>
+    <string name="config_state_remote">서버에서</string>
+    <string name="config_state_default">키 기본값</string>
+    <string name="config_state_overridden">재정의됨 · 서버 값 %1$s</string>
+    <string name="config_state_overridden_only">재정의됨 · 서버에 값 없음</string>
+    <string name="config_value_field">값</string>
+    <string name="config_edit_note">값은 이 기기에서만 재정의됩니다. 빈 칸으로 두면 재정의가 해제됩니다.</string>
+    <string name="config_override">재정의</string>
+    <string name="config_restore">서버 값으로 되돌리기</string>
+    <string name="config_cancel">취소</string>
+    <string name="config_override_set">값을 재정의했습니다</string>
+    <string name="config_override_cleared">재정의를 해제했습니다</string>
+    <string name="config_clear_all">모든 재정의 해제</string>
+    <string name="config_all_cleared">모든 재정의를 해제했습니다</string>
+    <string name="analytics_note">이번 실행 이후 애널리틱스로 보낸 이벤트와 속성입니다. 로그는 메모리에 있으며 재실행하면 지워지고, 그전까지 최근 %1$d개를 보관합니다.</string>
+    <string name="analytics_summary_empty">비어 있음</string>
+    <string name="analytics_summary_records">레코드: %1$d</string>
+    <string name="analytics_all">전체</string>
+    <string name="analytics_properties">속성</string>
+    <string name="analytics_property">속성 · %1$s</string>
+    <string name="analytics_value_cleared">해제됨</string>
+    <string name="analytics_copy">복사</string>
+    <string name="analytics_copied">로그를 복사했습니다</string>
+    <string name="analytics_clear">비우기</string>
+    <string name="analytics_log_cleared">로그를 비웠습니다</string>
+    <string name="analytics_empty">이벤트 없음</string>
+    <string name="analytics_empty_note">앱이 아직 아무것도 보내지 않았습니다. 아무 도구나 사용한 뒤 여기로 돌아오세요 — 레코드는 바로 나타나며 웹 콘솔을 기다릴 필요가 없습니다.</string>
+
+</resources>

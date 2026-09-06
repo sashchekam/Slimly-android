@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Не альбом системы, а первая строка списка: вся выборка целиком. -->
+    <string name="album_recent">Recents</string>
+
+    <string name="failure_unreadable_source">The file could not be read</string>
+    <string name="failure_unsupported_format">Format %1$s is not supported</string>
+    <string name="failure_write_failed">Could not write the result: %1$s</string>
+    <string name="failure_result_missing">There is nothing to save: the result is gone</string>
+    <string name="failure_unsupported_operation">This tool cannot handle the file</string>
+    <string name="failure_video_target">A video cannot be turned into %1$s</string>
+    <string name="failure_photo_target">A photo cannot be turned into %1$s</string>
+    <string name="failure_audio_from_photo">Audio can only be extracted from video</string>
+    <string name="failure_no_audio_track">The video has no audio</string>
+    <string name="failure_camera_unavailable">The camera is unavailable on this device</string>
+    <string name="failure_capture_failed">The shot did not work out: %1$s</string>
+    <string name="failure_pdf_assembly">Could not assemble a PDF from the pages</string>
+
+    <!-- Имя собранного документа: «Scan 2026-09-06 14-23.pdf» -->
+    <string name="scan_file_name">Scan %1$s.pdf</string>
+
+    <!-- Уведомление о работе, которая идёт со свёрнутым приложением -->
+    <string name="notification_channel">Processing</string>
+    <string name="notification_working">Working…</string>
+    <string name="notification_progress">%1$d%%</string>
+
+</resources>

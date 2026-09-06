@@ -25,6 +25,9 @@ style:
   MagicNumber:
     ignorePropertyDeclaration: true
     ignoreCompanionObjectPropertyDeclaration: true
+    # Число в списке вариантов — это и есть само значение варианта:
+    # `LIGHT(0.68)` читается лучше, чем `LIGHT(LIGHT_RATIO)`.
+    ignoreEnums: true
     ignoreAnnotated: ['Composable']
   UnusedPrivateFunction:
     # Превью — это функция, которую зовёт только IDE.

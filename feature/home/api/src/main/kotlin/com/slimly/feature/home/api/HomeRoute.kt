@@ -1,11 +1,13 @@
 package com.slimly.feature.home.api
 
+import com.slimly.navigation.Route
+import kotlinx.parcelize.Parcelize
+
 /**
  * Маршруты главной. Снаружи фича видна только этим типом — реализацию
  * не импортирует никто, кроме composition root.
- *
- * Общий тип `Route` и роутер приезжают в фазе 1 вместе с `:navigation`.
  */
-enum class HomeRoute {
+@Parcelize
+enum class HomeRoute : Route {
     Home,
 }

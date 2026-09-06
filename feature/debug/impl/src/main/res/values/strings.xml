@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Меню -->
+    <string name="menu_title">Debug menu</string>
+    <string name="menu_close">Done</string>
+    <string name="menu_sections">sections</string>
+    <string name="menu_actions">actions</string>
+    <string name="menu_analytics">Analytics</string>
+    <string name="menu_note">The menu opens with five taps on the version in the profile and lives only in internal builds — it is not on Google Play.</string>
+    <string name="menu_open">Open the debug menu</string>
+
+    <!-- Крутилки: взаимоисключающие подмены -->
+    <string name="knob_failure_title">Processing failure</string>
+    <string name="knob_failure_note">Every file fails with the chosen reason — that is how the list of failures on the outcome screen becomes visible</string>
+    <string name="knob_tour_title">Intro tour</string>
+    <string name="knob_tour_note">The mark that the tour was shown — clear it and restart the app to begin with the tour</string>
+    <string name="knob_seen">Shown</string>
+    <string name="knob_unseen">Not shown</string>
+    <string name="knob_tour_marked">The tour is marked as shown</string>
+    <string name="knob_tour_cleared">The tour will show on the next launch</string>
+
+    <!-- Разовые действия -->
+    <string name="action_copy_diagnostics">Copy diagnostics</string>
+    <string name="action_copy_diagnostics_hint">version, device, ID</string>
+    <string name="action_copy_diagnostics_done">Diagnostics copied to the clipboard</string>
+    <string name="action_reset_stats">Reset statistics</string>
+    <string name="action_reset_stats_hint">the profile resets to zero</string>
+    <string name="action_reset_stats_done">Profile statistics reset to zero</string>
+    <string name="action_reset_knobs">Turn off all overrides</string>
+    <string name="action_reset_knobs_hint">back to how Google Play ships it</string>
+    <string name="action_reset_knobs_done">Overrides turned off</string>
+
+    <!-- Удалённый конфиг -->
+    <string name="config_note">Values from the server and the local overrides on top of them. An override lives only on this device and survives a restart, while screens read the value when they open.</string>
+    <string name="config_summary">values from the server</string>
+    <string name="config_summary_overrides">overrides: %1$d</string>
+    <string name="config_refresh">Refresh</string>
+    <string name="config_updated">Values updated</string>
+    <string name="config_nothing_fetched">Nothing came from the server</string>
+    <string name="config_empty">No values</string>
+    <string name="config_empty_note">The config has not loaded yet, the project has no google-services.json, or no parameter has been published in the web console.</string>
+    <string name="config_state_remote">from the server</string>
+    <string name="config_state_default">key default</string>
+    <string name="config_state_overridden">overridden · from the server %1$s</string>
+    <string name="config_state_overridden_only">overridden · no value on the server</string>
+    <string name="config_value_field">Value</string>
+    <string name="config_edit_note">The value is overridden only on this device. An empty field clears the override.</string>
+    <string name="config_override">Override</string>
+    <string name="config_restore">Restore the server value</string>
+    <string name="config_cancel">Cancel</string>
+    <string name="config_override_set">Value overridden</string>
+    <string name="config_override_cleared">Override cleared</string>
+    <string name="config_clear_all">Clear all overrides</string>
+    <string name="config_all_cleared">All overrides cleared</string>
+
+    <!-- Журнал аналитики -->
+    <string name="analytics_note">Events and properties sent to analytics since this launch. The log lives in memory: a restart wipes it, and until then it keeps the last %1$d records.</string>
+    <string name="analytics_summary_empty">empty</string>
+    <string name="analytics_summary_records">records: %1$d</string>
+    <string name="analytics_all">All</string>
+    <string name="analytics_properties">properties</string>
+    <string name="analytics_property">property · %1$s</string>
+    <string name="analytics_value_cleared">cleared</string>
+    <string name="analytics_copy">Copy</string>
+    <string name="analytics_copied">Log copied</string>
+    <string name="analytics_clear">Clear</string>
+    <string name="analytics_log_cleared">Log cleared</string>
+    <string name="analytics_empty">No events</string>
+    <string name="analytics_empty_note">The app has not sent anything yet. Run any tool and come back here — a record shows up right away, no need to wait for the web console.</string>
+
+</resources>

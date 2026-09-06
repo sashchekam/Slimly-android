@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Английский взят с iOS дословно везде, где инструмент про одно и то же. -->
+<resources>
+
+    <string name="tool_title">Extract audio</string>
+    <string name="picker_hint">The track becomes a separate file</string>
+    <string name="format_title">Track format</string>
+    <string name="format_note">M4A is a copy of the track from the container: instant and without re-encoding. WAV is lossless but heavy — about ten megabytes a minute.</string>
+    <string name="format_source">Video track</string>
+
+</resources>

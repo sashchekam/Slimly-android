@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Выбор файлов -->
+    <string name="picker_action">Continue · %1$s</string>
+    <string name="picker_action_with_size">Continue · %1$s, %2$s</string>
+    <string name="picker_denied_title">No access to the gallery</string>
+    <string name="picker_denied_hint">Slimly works with files you pick yourself. Access is granted in settings.</string>
+    <string name="picker_denied_action">Open settings</string>
+    <string name="picker_empty_title">Nothing to show</string>
+    <string name="picker_empty_hint">This album has no files Slimly can work with</string>
+    <string name="picker_empty_limited">Only the files you picked are visible. Pick more in settings.</string>
+
+    <!-- Выбор формата -->
+    <string name="format_section_title">Format</string>
+    <string name="format_from">From</string>
+    <string name="format_to">To</string>
+
+    <!-- Обработка -->
+    <string name="stage_compressing">compressing</string>
+    <string name="stage_converting">converting</string>
+    <string name="stage_extracting">extracting</string>
+    <string name="stage_scanning">scanning</string>
+    <string name="progress_percent">%1$d%%</string>
+    <string name="progress_estimating">%1$s · estimating</string>
+    <string name="progress_remaining">%1$s left · %2$s</string>
+    <string name="progress_cancel">Cancel</string>
+
+    <!-- Итог -->
+    <string name="stage_compression_done">compressed</string>
+    <string name="stage_conversion_done">converted</string>
+    <string name="stage_audio_done">extracted</string>
+    <string name="stage_scan_done">scanned</string>
+    <string name="summary_freed">%1$s freed</string>
+    <string name="summary_dense">%1$s · already tightly packed</string>
+    <string name="summary_originals_untouched">originals untouched</string>
+    <string name="summary_conversion">%1$s → %2$s</string>
+    <string name="outcome_failed">Could not be handled</string>
+    <string name="outcome_done">Done</string>
+    <string name="outcome_track_size">track %1$s</string>
+    <string name="outcome_rename_file">Rename file %1$s</string>
+    <string name="outcome_delete_originals">Delete originals · %1$s</string>
+    <string name="outcome_share_file">Share file %1$s</string>
+    <string name="outcome_share_all">Share all · %1$d</string>
+
+    <!-- Сохранение -->
+    <string name="save_to_gallery">Save to gallery</string>
+    <string name="save_to_files">Save to Files</string>
+    <string name="save_hint">Originals stay where they are</string>
+    <string name="save_done">Saved to the gallery</string>
+    <string name="save_files_done">Saved to Files</string>
+    <string name="save_files_folder">Saved to the “Slimly” folder in Files</string>
+    <string name="save_partial">Some files could not be saved</string>
+    <string name="save_failed">Could not save</string>
+
+    <!-- Просмотр файла -->
+    <string name="hint_compression">Tap a file to compare before and after</string>
+    <string name="hint_preview">Tap a file to open the preview</string>
+    <string name="preview_before_title">Original · %1$s</string>
+    <string name="preview_after_title">Compressed · %1$s</string>
+    <string name="preview_before_caption">original · %1$s</string>
+    <string name="preview_after_caption">after · %1$s</string>
+    <string name="preview_compression">A copy in your library, %1$s of the weight is gone. The original is untouched.</string>
+    <string name="preview_conversion">A ready %1$s in your library. The original stayed as it was.</string>
+    <string name="preview_scan">A ready %1$s — it also sits in Files, in the Slimly folder.</string>
+    <string name="preview_audio">A ready track — it sits in Files, in the Slimly folder. The video was not changed.</string>
+    <string name="preview_source_compare">The original from your library — for comparison.</string>
+    <string name="preview_source_note">The original from your library — this is how it looks now. Processing does not change it: the result becomes a separate file.</string>
+    <string name="preview_track">Video track</string>
+    <string name="preview_track_time">Video track · %1$s</string>
+    <string name="badge_compressed">COMPRESSED COPY</string>
+    <string name="badge_document">DOCUMENT</string>
+    <string name="badge_original">ORIGINAL</string>
+    <string name="badge_result">RESULT</string>
+    <string name="badge_track">TRACK</string>
+    <string name="preview_open">Open in…</string>
+
+    <!-- Имя готового файла -->
+    <string name="rename_title">New name</string>
+    <string name="rename_field">File name</string>
+    <string name="rename_apply">Rename</string>
+    <string name="rename_cancel">Cancel</string>
+    <string name="rename_note">The %1$s extension stays as it is</string>
+    <string name="rename_failed">Could not rename</string>
+
+</resources>

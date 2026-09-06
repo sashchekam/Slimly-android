@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ko». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="convert_action">변환</string>
+    <string name="photo_title">사진 변환</string>
+    <string name="photo_hint">형식은 다음 단계에서 정합니다</string>
+    <string name="photo_format_title">어떤 형식으로</string>
+    <string name="photo_format_note">WebP는 더 가볍고 JPEG는 어디서나 열립니다. PNG는 무손실이지만 원본보다 무겁습니다. 원본 형식은 목록에 없습니다.</string>
+    <string name="photo_format_source">사진</string>
+    <string name="video_title">동영상 변환</string>
+    <string name="video_hint">코덱은 다음 단계에서</string>
+    <string name="video_format_title">어떤 코덱으로</string>
+    <string name="video_format_note">HEVC는 용량이 작고 H.264는 어디서나 열립니다. 확장자 변경이 아니라 재인코딩입니다 — 컨테이너는 MP4 그대로이며 시스템은 다른 것을 쓰지 않습니다.</string>
+    <string name="video_format_source">동영상</string>
+
+</resources>

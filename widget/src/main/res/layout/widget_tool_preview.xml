@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Как ярлык инструмента выглядит в списке виджетов: сжатие как инструмент
+  по умолчанию — им же виджет и начинает работать, пока его не настроили.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161826"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:contentDescription="@string/tool_compress_title"
+        android:src="@drawable/ic_tool_compress"
+        android:tint="#CFD3E5" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tool_compress_title"
+        android:textColor="#E9E9ED"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/tool_compress_subtitle"
+        android:textColor="#9397AB"
+        android:textSize="11sp" />
+</LinearLayout>

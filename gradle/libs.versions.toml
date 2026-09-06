@@ -8,15 +8,62 @@ composeBom = "2026.08.00"
 coreKtx = "1.19.0"
 activityCompose = "1.13.0"
 lifecycle = "2.11.0"
+coroutines = "1.11.0"
+exifinterface = "1.4.2"
+datastore = "1.2.1"
+media3 = "1.11.0"
+camerax = "1.6.2"
+serialization = "1.11.0"
+firebaseBom = "34.18.0"
+googleServices = "4.5.0"
+crashlyticsPlugin = "3.0.8"
+junit = "4.13.2"
 detekt = "2.0.0-alpha.6"
 ktlintPlugin = "14.2.0"
 ktlint = "1.8.0"
 composeLints = "1.6.0"
+glance = "1.2.0"
 
 [libraries]
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
 androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+
+# Метаданные снимка: `Bitmap` их не носит, и после перекодирования дату
+# съёмки с геометкой приходится возвращать в готовый файл отдельно.
+# Библиотека, а не системный `android.media.ExifInterface`: тот умеет
+# дописывать теги только в JPEG.
+androidx-exifinterface = { module = "androidx.exifinterface:exifinterface", version.ref = "exifinterface" }
+
+# Хранилище настроек: замена `UserDefaults`. Читается потоком, пишется
+# приостанавливаемой функцией — синхронного чтения у DataStore нет.
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
+
+# Перекодирование видео: замена связки AVAssetReader + AVAssetWriter с iOS.
+# Transformer сам держит кодировщик, распаковщик и упаковщик — нам остаются
+# кодек, битрейт и размер кадра.
+androidx-media3-transformer = { module = "androidx.media3:media3-transformer", version.ref = "media3" }
+androidx-media3-effect = { module = "androidx.media3:media3-effect", version.ref = "media3" }
+androidx-media3-common = { module = "androidx.media3:media3-common", version.ref = "media3" }
+
+# Камера скана. `camera2` — сам поставщик кадров, `lifecycle` — привязка
+# сессии к жизненному циклу, `view` — готовое превью и контроллер, который
+# держит съёмку и разбор кадров вместе.
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "camerax" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "camerax" }
+androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "camerax" }
+
+# `LocalLifecycleOwner` и `LifecycleStartEffect`: камера гаснет, когда экран
+# уходит в фон, — без этого видоискатель продолжал бы работать свёрнутым.
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle" }
+
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+# Мостик между задачами Google Play и корутинами: SDK Firebase говорит
+# задачами, а всё остальное приложение — приостанавливаемыми функциями.
+kotlinx-coroutines-play-services = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "coroutines" }
+# JSON для значений, у которых нет примитивного вида, — замена `Codable`.
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
 
 compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
 compose-ui = { module = "androidx.compose.ui:ui" }
@@ -24,6 +71,23 @@ compose-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
 compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
 compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
 compose-foundation = { module = "androidx.compose.foundation:foundation" }
+# Material 3 берём ради шторки и ряби нажатия: рисовать их руками дороже,
+# чем перекрасить готовые. Всё остальное в Nocturne своё.
+compose-material3 = { module = "androidx.compose.material3:material3" }
+
+# Виджет рабочего стола. Не Compose: тот рисует в своём процессе, а виджет —
+# в лаунчере, и разметка ему уезжает как RemoteViews. Отсюда и свой набор
+# компонентов, и своя система размеров.
+androidx-glance-appwidget = { module = "androidx.glance:glance-appwidget", version.ref = "glance" }
+androidx-glance-material3 = { module = "androidx.glance:glance-material3", version.ref = "glance" }
+
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-config = { module = "com.google.firebase:firebase-config" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
+
+junit = { module = "junit:junit", version.ref = "junit" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
 
 # Правила Slack для Compose: замена той части SwiftLint, которая следила
 # за формой вью. Подключаются как lint-проверки Android Lint.
@@ -32,7 +96,13 @@ compose-lint-checks = { module = "com.slack.lint.compose:compose-lint-checks", v
 # Плагины как зависимости: так их видит `build-logic`, где `plugins {}`
 # принимает только уже разрешённые артефакты.
 android-gradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "agp" }
-kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-serialization-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
 compose-gradlePlugin = { module = "org.jetbrains.kotlin:compose-compiler-gradle-plugin", version.ref = "kotlin" }
 detekt-gradlePlugin = { module = "dev.detekt:detekt-gradle-plugin", version.ref = "detekt" }
 ktlint-gradlePlugin = { module = "org.jlleitschuh.gradle:ktlint-gradle", version.ref = "ktlintPlugin" }
+
+# Плагины Firebase. Подключаются только там, где рядом лежит
+# `google-services.json`: без него они валят сборку с требованием файла,
+# а клон на чужой машине должен собираться и без ключей.
+google-services-gradlePlugin = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+firebase-crashlytics-gradlePlugin = { module = "com.google.firebase:firebase-crashlytics-gradle", version.ref = "crashlyticsPlugin" }

@@ -22,7 +22,8 @@ description: Создать новый фичевый модуль в Slimly д�
 <Name>(":feature:<name>:impl"),
 ```
 
-- `<Name>Api` → `Kind.FEATURE_API`, зависимости `listOf(Core)`
+- `<Name>Api` → `Kind.FEATURE_API`, зависимости `listOf(Core, Navigation)`
+  (маршрут — это `Route` из `:navigation`)
 - `<Name>` → `Kind.FEATURE`, зависимости `listOf(Core, DesignSystem, <Name>Api)`
   плюс `:api` тех фич, чьи экраны она открывает
 - `:app` → добавить обе записи в его список зависимостей

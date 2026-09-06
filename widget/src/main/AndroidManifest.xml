@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!--
+          Приёмник живёт в модуле виджета, а не в `:app`: манифесты
+          библиотек сливаются в приложение сами, и держать объявление рядом
+          с кодом честнее, чем в общем файле.
+        -->
+        <receiver
+            android:name=".ToolBoardReceiver"
+            android:exported="false"
+            android:label="@string/widget_board_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/tool_board_widget_info" />
+        </receiver>
+
+        <!--
+          Второй виджет — ярлык одного инструмента. Настраиваемый, поэтому
+          у него, в отличие от полки, есть свой экран выбора.
+        -->
+        <receiver
+            android:name=".ToolWidgetReceiver"
+            android:exported="false"
+            android:label="@string/widget_tool_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/tool_widget_info" />
+        </receiver>
+
+        <!--
+          Экран настройки запускает система — своей точки входа у него нет,
+          и в списке приложений он не появляется.
+        -->
+        <activity
+            android:name=".ToolWidgetConfigureActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Slimly">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

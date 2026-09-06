@@ -1,21 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
+    <!--
+      Своя витрина в стиле Nocturne требует широкого доступа к медиатеке.
+      С Android 13 он разделён на фото и видео, с 14 к нему добавляется
+      частичный: «пользователь отобрал несколько файлов». До 13 доступ был
+      один на всё внешнее хранилище — там и остаётся.
+    -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <!--
+      targetApi здесь ради localeConfig: системный выбор языка приложения
+      появился в Android 13, а до него атрибут просто не читается. Это и есть
+      задуманное поведение — на старых версиях приложение говорит на языке
+      телефона, — но Lint без пометки считает атрибут лишним.
+    -->
     <application
+        android:name=".SlimlyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Slimly">
+        android:theme="@style/Theme.Slimly"
+        tools:targetApi="tiramisu">
 
+        <!--
+          singleTask: ссылка приходит в уже работающее приложение через
+          onNewIntent, а не поднимает вторую копию поверх первой.
+        -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:launchMode="singleTask"
             android:theme="@style/Theme.Slimly">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Ярлыки в меню иконки: те же ссылки, что и в виджете. -->
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+
+            <!-- slimly://home, slimly://compress, slimly://profile/stats — таблица в DeeplinkMap.kt -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="slimly" />
             </intent-filter>
         </activity>
     </application>

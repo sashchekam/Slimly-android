@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Ярлык одного инструмента. В отличие от полки настраивается: какой именно
+  инструмент открывать, спрашивает `configure`-экран при добавлении.
+  `reconfigurable` разрешает вернуться к этому выбору потом — атрибут
+  появился в Android 12, на старых система просто его не читает.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:configure="com.slimly.widget.ToolWidgetConfigureActivity"
+    android:description="@string/widget_tool_description"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:minWidth="110dp"
+    android:minHeight="110dp"
+    android:previewImage="@drawable/ic_tool_compress"
+    android:previewLayout="@layout/widget_tool_preview"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable"
+    tools:targetApi="s" />

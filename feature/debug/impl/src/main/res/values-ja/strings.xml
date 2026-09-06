@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ja». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="menu_title">デバッグメニュー</string>
+    <string name="menu_close">完了</string>
+    <string name="menu_sections">セクション</string>
+    <string name="menu_actions">アクション</string>
+    <string name="menu_analytics">アナリティクス</string>
+    <string name="menu_note">メニューはプロフィールのバージョンを 5 回タップすると開き、社内ビルドにのみ存在します — Google Play 版にはありません。</string>
+    <string name="menu_open">デバッグメニューを開く</string>
+    <string name="knob_failure_title">処理の失敗</string>
+    <string name="knob_failure_note">選んだ理由で各ファイルが失敗します — 結果画面の失敗一覧を確認できます</string>
+    <string name="knob_tour_title">紹介ツアー</string>
+    <string name="knob_tour_note">ツアー表示済みの印です — 外してアプリを再起動するとツアーから始まります</string>
+    <string name="knob_seen">表示済み</string>
+    <string name="knob_unseen">未表示</string>
+    <string name="knob_tour_marked">ツアーを表示済みにしました</string>
+    <string name="knob_tour_cleared">次回起動時にツアーが表示されます</string>
+    <string name="action_copy_diagnostics">診断情報をコピー</string>
+    <string name="action_copy_diagnostics_hint">バージョン、デバイス、ID</string>
+    <string name="action_copy_diagnostics_done">診断情報をクリップボードにコピーしました</string>
+    <string name="action_reset_stats">統計をリセット</string>
+    <string name="action_reset_stats_hint">プロフィールがゼロに戻ります</string>
+    <string name="action_reset_stats_done">プロフィールの統計をゼロに戻しました</string>
+    <string name="action_reset_knobs">すべての上書きを解除</string>
+    <string name="action_reset_knobs_hint">Google Play 版と同じ状態に戻す</string>
+    <string name="action_reset_knobs_done">上書きを解除しました</string>
+    <string name="config_note">サーバーの値と、その上に載るローカルの上書きです。上書きはこの端末にだけ残り再起動後も生き続け、画面は開いた時点の値を読みます。</string>
+    <string name="config_summary">サーバーの値</string>
+    <string name="config_summary_overrides">上書き: %1$d</string>
+    <string name="config_refresh">更新</string>
+    <string name="config_updated">値を更新しました</string>
+    <string name="config_nothing_fetched">サーバーからは何も来ませんでした</string>
+    <string name="config_empty">値がありません</string>
+    <string name="config_empty_note">設定がまだ読み込まれていないか、プロジェクトに google-services.json がないか、Web コンソールでパラメータが 1 つも公開されていません。</string>
+    <string name="config_state_remote">サーバーから</string>
+    <string name="config_state_default">キーの既定値</string>
+    <string name="config_state_overridden">上書き · サーバー値 %1$s</string>
+    <string name="config_state_overridden_only">上書き · サーバーに値なし</string>
+    <string name="config_value_field">値</string>
+    <string name="config_edit_note">値はこの端末でのみ上書きされます。空欄にすると上書きが解除されます。</string>
+    <string name="config_override">上書きする</string>
+    <string name="config_restore">サーバーの値に戻す</string>
+    <string name="config_cancel">キャンセル</string>
+    <string name="config_override_set">値を上書きしました</string>
+    <string name="config_override_cleared">上書きを解除しました</string>
+    <string name="config_clear_all">すべての上書きを解除</string>
+    <string name="config_all_cleared">すべての上書きを解除しました</string>
+    <string name="analytics_note">この起動以降にアナリティクスへ送られたイベントとプロパティです。ログはメモリ上にあり、再起動で消えます。それまでは直近 %1$d 件を保持します。</string>
+    <string name="analytics_summary_empty">空</string>
+    <string name="analytics_summary_records">レコード: %1$d</string>
+    <string name="analytics_all">すべて</string>
+    <string name="analytics_properties">プロパティ</string>
+    <string name="analytics_property">プロパティ · %1$s</string>
+    <string name="analytics_value_cleared">解除</string>
+    <string name="analytics_copy">コピー</string>
+    <string name="analytics_copied">ログをコピーしました</string>
+    <string name="analytics_clear">消去</string>
+    <string name="analytics_log_cleared">ログを消去しました</string>
+    <string name="analytics_empty">イベントなし</string>
+    <string name="analytics_empty_note">アプリはまだ何も送信していません。どれかの機能を使ってここに戻ってください — レコードはすぐ現れ、Web コンソールを待つ必要はありません。</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «zh-Hans». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="tool_compress_title">压缩</string>
+    <string name="tool_compress_short">压缩</string>
+    <string name="tool_compress_subtitle">画面依旧，体积大减</string>
+    <string name="tool_convert_photo_title">转换照片</string>
+    <string name="tool_convert_photo_short">照片</string>
+    <string name="tool_convert_video_title">转换视频</string>
+    <string name="tool_convert_video_short">视频</string>
+    <string name="tool_scan_title">扫描文稿</string>
+    <string name="tool_scan_short">扫描</string>
+    <string name="tool_scan_subtitle">多页汇成一个 PDF</string>
+    <string name="tool_audio_title">提取音频</string>
+    <string name="tool_audio_short">音频</string>
+    <string name="tool_audio_subtitle">从视频中取出音轨</string>
+    <string name="widget_board_title">工具</string>
+    <string name="widget_board_description">所有 Slimly 工具触手可及。</string>
+    <string name="widget_tool_title">工具</string>
+    <string name="widget_tool_description">轻点一次即可打开所选的 Slimly 工具。</string>
+    <string name="widget_tool_configure">该小组件打开的 Slimly 工具。</string>
+
+</resources>

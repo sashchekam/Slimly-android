@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ko». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="album_recent">최근 항목</string>
+    <string name="failure_unreadable_source">파일을 읽지 못했습니다</string>
+    <string name="failure_unsupported_format">%1$s 형식은 지원하지 않습니다</string>
+    <string name="failure_write_failed">결과를 저장하지 못했습니다: %1$s</string>
+    <string name="failure_result_missing">저장할 것이 없습니다. 결과가 사라졌습니다</string>
+    <string name="failure_unsupported_operation">이 도구로는 파일을 처리할 수 없습니다</string>
+    <string name="failure_video_target">동영상을 %1$s(으)로 변환할 수 없습니다</string>
+    <string name="failure_photo_target">사진을 %1$s(으)로 변환할 수 없습니다</string>
+    <string name="failure_audio_from_photo">오디오는 동영상에서만 추출할 수 있습니다</string>
+    <string name="failure_no_audio_track">동영상에 오디오가 없습니다</string>
+    <string name="failure_camera_unavailable">이 기기에서는 카메라를 사용할 수 없습니다</string>
+    <string name="failure_capture_failed">촬영에 실패했습니다: %1$s</string>
+    <string name="failure_pdf_assembly">페이지로 PDF를 만들지 못했습니다</string>
+    <string name="scan_file_name">스캔 %1$s.pdf</string>
+    <string name="notification_channel">처리</string>
+    <string name="notification_working">작업 중…</string>
+
+</resources>

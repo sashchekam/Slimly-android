@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «de». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="picker_action">Weiter · %1$s</string>
+    <string name="picker_action_with_size">Weiter · %1$s, %2$s</string>
+    <string name="picker_denied_title">Kein Zugriff auf die Galerie</string>
+    <string name="picker_denied_hint">Slimly arbeitet mit Dateien, die du selbst auswählst. Den Zugriff erlaubst du in den Einstellungen.</string>
+    <string name="picker_denied_action">Einstellungen öffnen</string>
+    <string name="picker_empty_title">Nichts zu zeigen</string>
+    <string name="picker_empty_hint">In diesem Album gibt es keine Dateien, mit denen Slimly arbeiten kann</string>
+    <string name="picker_empty_limited">Sichtbar sind nur die Dateien, die du ausgewählt hast. Weitere wählst du in den Einstellungen.</string>
+    <string name="format_section_title">Format</string>
+    <string name="format_from">von</string>
+    <string name="format_to">zu</string>
+    <string name="stage_compressing">wird komprimiert</string>
+    <string name="stage_converting">wird konvertiert</string>
+    <string name="stage_extracting">wird extrahiert</string>
+    <string name="stage_scanning">wird gescannt</string>
+    <string name="progress_estimating">%1$s · wird geschätzt</string>
+    <string name="progress_remaining">Noch %1$s · %2$s</string>
+    <string name="progress_cancel">Abbrechen</string>
+    <string name="stage_compression_done">komprimiert</string>
+    <string name="stage_conversion_done">konvertiert</string>
+    <string name="stage_audio_done">extrahiert</string>
+    <string name="stage_scan_done">gescannt</string>
+    <string name="summary_freed">%1$s freigegeben</string>
+    <string name="summary_dense">%1$s · war schon dicht gepackt</string>
+    <string name="summary_originals_untouched">Originale unberührt</string>
+    <string name="outcome_failed">Konnte nicht verarbeitet werden</string>
+    <string name="outcome_done">Fertig</string>
+    <string name="outcome_track_size">Spur %1$s</string>
+    <string name="outcome_rename_file">Datei %1$s umbenennen</string>
+    <string name="outcome_delete_originals">Originale löschen · %1$s</string>
+    <string name="outcome_share_file">Datei %1$s teilen</string>
+    <string name="outcome_share_all">Alle teilen · %1$d</string>
+    <string name="save_to_gallery">In der Galerie sichern</string>
+    <string name="save_to_files">In Dateien sichern</string>
+    <string name="save_hint">Die Originale bleiben, wo sie sind</string>
+    <string name="save_done">In der Galerie gesichert</string>
+    <string name="save_files_done">In Dateien gesichert</string>
+    <string name="save_files_folder">Im Ordner „Slimly“ in Dateien gesichert</string>
+    <string name="save_partial">Einige Dateien konnten nicht gesichert werden</string>
+    <string name="save_failed">Sichern fehlgeschlagen</string>
+    <string name="hint_compression">Auf eine Datei tippen, um vorher und nachher zu vergleichen</string>
+    <string name="hint_preview">Auf eine Datei tippen, um die Vorschau zu öffnen</string>
+    <string name="preview_before_title">Original · %1$s</string>
+    <string name="preview_after_title">Komprimiert · %1$s</string>
+    <string name="preview_before_caption">Original · %1$s</string>
+    <string name="preview_after_caption">nachher · %1$s</string>
+    <string name="preview_compression">Eine Kopie in deiner Mediathek, %1$s des Gewichts ist weg. Das Original bleibt unberührt.</string>
+    <string name="preview_conversion">Ein fertiges %1$s in deiner Mediathek. Das Original blieb, wie es war.</string>
+    <string name="preview_scan">Ein fertiges %1$s – es liegt auch in Dateien, im Ordner Slimly.</string>
+    <string name="preview_audio">Eine fertige Spur – sie liegt in Dateien, im Ordner Slimly. Das Video wurde nicht verändert.</string>
+    <string name="preview_source_compare">Das Original aus deiner Mediathek – zum Vergleich.</string>
+    <string name="preview_source_note">Das Original aus deiner Mediathek – so sieht es jetzt aus. Die Verarbeitung ändert es nicht: das Ergebnis wird eine eigene Datei.</string>
+    <string name="preview_track">Videospur</string>
+    <string name="preview_track_time">Videospur · %1$s</string>
+    <string name="badge_compressed">KOMPRIMIERTE KOPIE</string>
+    <string name="badge_document">DOKUMENT</string>
+    <string name="badge_original">ORIGINAL</string>
+    <string name="badge_result">ERGEBNIS</string>
+    <string name="badge_track">SPUR</string>
+    <string name="preview_open">Öffnen mit …</string>
+    <string name="rename_title">Neuer Name</string>
+    <string name="rename_field">Dateiname</string>
+    <string name="rename_apply">Umbenennen</string>
+    <string name="rename_cancel">Abbrechen</string>
+    <string name="rename_note">Die Endung %1$s bleibt erhalten</string>
+    <string name="rename_failed">Umbenennen nicht möglich</string>
+
+</resources>

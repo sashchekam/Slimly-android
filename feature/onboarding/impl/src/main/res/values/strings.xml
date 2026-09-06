@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Английский взят с iOS дословно: тур обещает одно и то же приложение
+  на обеих платформах, и переводы на девять языков там уже есть.
+-->
+<resources>
+
+    <string name="compress_kicker">Compression</string>
+    <string name="compress_title">Free up space without deleting anything</string>
+    <string name="compress_text">Pick photos and videos, set the level — we show the size before and after and a frame comparison. The originals stay until you delete them.</string>
+    <string name="compress_sample">1.4 GB → 590 MB</string>
+
+    <string name="convert_kicker">Conversion</string>
+    <string name="convert_title">Any format for any job</string>
+    <string name="convert_text">HEIC, JPEG, PNG, H.264, HEVC — for the whole batch at once, keeping the capture date and the location tag.</string>
+
+    <string name="audio_kicker">Audio</string>
+    <string name="audio_title">Pull the audio out of a video</string>
+    <string name="audio_text">A lecture, an interview, a voice note inside a video — we save it as M4A or WAV without re-encoding anything extra.</string>
+    <string name="audio_sample">M4A · 4.2 MB</string>
+
+    <string name="scan_kicker">Scan</string>
+    <string name="scan_title">A document into a PDF in one shoot</string>
+    <string name="scan_text">Shoot the pages one after another: the bounds are found on their own, the frame is straightened, everything lands in a single PDF.</string>
+
+    <string name="tour_next">Next</string>
+    <string name="tour_start">Start</string>
+    <string name="tour_skip">Skip</string>
+    <string name="tour_close">Close</string>
+
+</resources>

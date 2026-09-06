@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ru». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="compress_kicker">Сжатие</string>
+    <string name="compress_title">Освободите место, не удаляя ничего</string>
+    <string name="compress_text">Выберите фото и видео, задайте уровень — покажем размер до и после и сравнение кадров. Оригиналы остаются, пока вы сами не удалите их.</string>
+    <string name="compress_sample">1,4 ГБ → 590 МБ</string>
+    <string name="convert_kicker">Конвертация</string>
+    <string name="convert_title">Любой формат — под любую задачу</string>
+    <string name="convert_text">HEIC, JPEG, PNG, H.264, HEVC — сразу для всей пачки, с сохранением даты съёмки и геометки.</string>
+    <string name="audio_kicker">Звук</string>
+    <string name="audio_title">Достаньте звук из видео</string>
+    <string name="audio_text">Лекция, интервью, голосовое из видео — сохраняем в M4A или WAV без перекодирования лишнего.</string>
+    <string name="audio_sample">M4A · 4,2 МБ</string>
+    <string name="scan_kicker">Скан</string>
+    <string name="scan_title">Документ в PDF за одну съёмку</string>
+    <string name="scan_text">Снимите страницы подряд: границы найдутся сами, кадр выпрямится, всё соберётся в один PDF.</string>
+    <string name="tour_next">Далее</string>
+    <string name="tour_start">Начать</string>
+    <string name="tour_skip">Пропустить</string>
+    <string name="tour_close">Закрыть</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Две ноты на общем коромысле: дорожка, вынутая из видео. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M9.4,15.6 V5.8 L18.4,4.2 V13.8 M9.4,16.4 A2.8,2.8 0 1 1 3.8,16.4 A2.8,2.8 0 1 1 9.4,16.4 Z M18.4,14.6 A2.8,2.8 0 1 1 12.8,14.6 A2.8,2.8 0 1 1 18.4,14.6 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1.5" />
+</vector>

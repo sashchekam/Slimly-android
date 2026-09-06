@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «de». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="intro_title">Dokumentenscan</string>
+    <string name="intro_note">Wir finden die Ränder, begradigen die Seite und erstellen ein PDF – der Rahmen lässt sich von Hand anpassen</string>
+    <string name="intro_camera">Mit der Kamera aufnehmen</string>
+    <string name="intro_camera_hint">Die Ränder werden live erkannt, anpassen geht danach</string>
+    <string name="intro_library">Fotos auswählen</string>
+    <string name="intro_library_hint">Bis zu %1$d Seiten aus deiner Mediathek</string>
+    <string name="camera_cancel">Abbrechen</string>
+    <string name="camera_flash_auto">Auto</string>
+    <string name="camera_flash_on">Ein</string>
+    <string name="camera_flash">Blitz: %1$s</string>
+    <string name="camera_auto_capture">Autoaufnahme</string>
+    <string name="camera_manual">Manuell</string>
+    <string name="camera_manual_hint">Manueller Modus · Auslöser drücken</string>
+    <string name="camera_aim_hint">Richte die Kamera auf eine Seite</string>
+    <string name="camera_bounds_found">Ränder erkannt · ruhig halten</string>
+    <string name="camera_limit_reached">Limit erreicht – %1$s</string>
+    <string name="camera_limit_spoken">Höchstens %1$s auf einmal</string>
+    <string name="camera_page_captured">Seite %1$d aufgenommen</string>
+    <string name="camera_first_page">Nimm die erste Seite auf</string>
+    <string name="camera_shutter">Seite aufnehmen</string>
+    <string name="camera_done">Fertig</string>
+    <string name="camera_done_count">Fertig · %1$d</string>
+    <string name="camera_denied_title">Kein Zugriff auf die Kamera</string>
+    <string name="camera_denied_note">Erlaube die Kamera in den Einstellungen – Seiten kannst du aufnehmen oder aus der Mediathek wählen</string>
+    <string name="camera_open_settings">Einstellungen öffnen</string>
+    <string name="picker_title">Scanseiten</string>
+    <string name="picker_hint">Die Seitenreihenfolge entspricht der Auswahlreihenfolge</string>
+    <string name="pages_title">Seitenränder</string>
+    <string name="pages_subtitle">Seite %1$d von %2$d · %3$s</string>
+    <string name="pages_searching">Ränder werden gesucht …</string>
+    <string name="pages_not_found">Keine Ränder erkannt – zieh die Ecken an den Seitenrand</string>
+    <string name="pages_adjust_hint">Zieh die Ecken, falls der Rahmen den Rand verfehlt hat</string>
+    <string name="pages_reset">Zurücksetzen</string>
+    <string name="pages_no_crop">Ohne Zuschnitt</string>
+    <string name="pages_action">Weiter · %1$s</string>
+    <string name="status_searching">Blatt wird gesucht</string>
+    <string name="status_found">Blatt gefunden</string>
+    <string name="status_not_found">Blatt nicht gefunden</string>
+    <string name="status_adjusted">Rahmen angepasst</string>
+    <string name="format_title">Wie der Scan zusammengesetzt wird</string>
+    <string name="format_note">Das Bild wird entlang der gewählten Ränder begradigt und der Hintergrund auf Weiß gezogen. S/W liefert den schärfsten Text, Farbe braucht es für Stempel und Bilder. Das Dokument lässt sich in Dateien sichern – die Originale bleiben in der Mediathek.</string>
+    <string name="format_action">Scan erstellen</string>
+    <string name="format_source">Foto</string>
+
+</resources>

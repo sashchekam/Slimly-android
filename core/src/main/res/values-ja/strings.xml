@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ja». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="kind_compression">圧縮</string>
+    <string name="kind_conversion">変換</string>
+    <string name="kind_audio_extraction">音声の抽出</string>
+    <string name="kind_scan">書類のスキャン</string>
+    <string name="kind_short_compression">圧縮</string>
+    <string name="kind_short_conversion">変換</string>
+    <string name="kind_short_audio_extraction">音声</string>
+    <string name="kind_short_scan">スキャン</string>
+    <string name="audio_format_aac">M4A · %1$d kbps</string>
+    <string name="audio_format_wav">WAV · ロスレス</string>
+    <string name="palette_color">カラー</string>
+    <string name="palette_gray">グレー</string>
+    <string name="palette_black_and_white">白黒</string>
+    <string name="quality_light">弱</string>
+    <string name="quality_medium">中</string>
+    <string name="quality_maximum">強</string>
+    <string name="quality_summary_light">1080p、オリジナルとほぼ同じ</string>
+    <string name="quality_summary_medium">1080p、ビットレート低め — メッセンジャーやクラウド向け</string>
+    <string name="quality_summary_maximum">720p、細部で違いが分かる</string>
+    <string name="period_month">30日</string>
+    <string name="period_quarter">90日</string>
+    <string name="period_all_time">全期間</string>
+    <string name="period_all_time_inline">全期間</string>
+    <string name="size_megabyte">MB</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="date_today">今日</string>
+    <string name="date_yesterday">昨日</string>
+    <string name="digest_empty">まだ何も処理していません</string>
+    <string name="digest_since">%1$s から · %2$s</string>
+    <string name="badge_photo">写真</string>
+    <string name="badge_video">ビデオ</string>
+    <string name="library_error_access_denied">写真ライブラリにアクセスできません</string>
+    <string name="library_error_item_not_found">写真ライブラリにファイルが見つかりません</string>
+    <string name="library_error_original_unavailable">オリジナルはまだクラウドにあります</string>
+    <string name="failure_none">なし</string>
+    <string name="failure_no_space">空き容量なし</string>
+    <string name="failure_unreadable">壊れたファイル</string>
+    <string name="failure_interrupted">中断</string>
+    <string name="failure_save_denied">保存が拒否されました</string>
+    <string name="failure_detail_no_space">コピーを作るための空き容量が足りません</string>
+    <string name="failure_detail_unreadable">ファイルが壊れているか、まだクラウドからダウンロード中です</string>
+    <string name="failure_detail_interrupted">処理がシステムによって中断されました</string>
+    <string name="failure_detail_save_denied">Android が結果をギャラリーに保存することを拒否しました</string>
+    <plurals name="count_file">
+        <item quantity="other">%1$dファイル</item>
+    </plurals>
+    <plurals name="count_photo">
+        <item quantity="other">%1$d枚の写真</item>
+    </plurals>
+    <plurals name="count_video">
+        <item quantity="other">%1$d本の動画</item>
+    </plurals>
+    <plurals name="count_page">
+        <item quantity="other">%1$dページ</item>
+    </plurals>
+    <plurals name="count_track">
+        <item quantity="other">%1$d個のトラック</item>
+    </plurals>
+    <plurals name="count_conversion">
+        <item quantity="other">%1$d件の変換</item>
+    </plurals>
+    <plurals name="count_scan">
+        <item quantity="other">%1$d件のスキャン</item>
+    </plurals>
+    <plurals name="unit_file">
+        <item quantity="other">ファイル</item>
+    </plurals>
+    <plurals name="unit_photo">
+        <item quantity="other">写真</item>
+    </plurals>
+    <plurals name="unit_video">
+        <item quantity="other">動画</item>
+    </plurals>
+    <plurals name="unit_page">
+        <item quantity="other">ページ</item>
+    </plurals>
+    <plurals name="unit_track">
+        <item quantity="other">トラック</item>
+    </plurals>
+    <plurals name="unit_conversion">
+        <item quantity="other">変換</item>
+    </plurals>
+    <plurals name="unit_scan">
+        <item quantity="other">スキャン</item>
+    </plurals>
+
+</resources>

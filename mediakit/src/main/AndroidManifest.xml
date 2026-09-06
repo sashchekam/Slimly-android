@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+      Обработка обязана пережить сворачивание приложения: свернуть его
+      посреди часового ролика — обычное дело, а оборванная работа читается
+      как поломка. `mediaProcessing` — тип ровно про перекодирование медиа,
+      но он появился только в Android 15; до него ближайшее — `dataSync`.
+    -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING" />
+    <!-- Без него сервис работает, но прогресс в шторке не виден. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!--
+      Съёмка страниц документа. Камера не обязательна: без неё скан
+      по-прежнему собирается из снимков галереи, и отсекать такие устройства
+      от установки незачем.
+    -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="false" />
+
+    <!--
+      Видимость чужих приложений: с Android 11 приложение по умолчанию
+      не знает, кто на устройстве умеет открыть PDF или дорожку. Без этого
+      объявления «Открыть в…» не нашло бы адресата ни разу и пропало бы
+      с экрана навсегда.
+    -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:mimeType="*/*" />
+        </intent>
+    </queries>
+
+    <application>
+        <service
+            android:name=".processing.foreground.ProcessingForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync|mediaProcessing" />
+
+        <!--
+          Готовый файл уходит наружу адресом провайдера, а не путём: путь
+          чужое приложение прочитать не может. Провайдер живёт здесь же,
+          где и рабочая папка, — о ней не знает больше никто.
+        -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.files"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/output_paths" />
+        </provider>
+    </application>
+
+</manifest>

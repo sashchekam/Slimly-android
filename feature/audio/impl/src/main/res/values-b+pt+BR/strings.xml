@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «pt-BR». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="tool_title">Extrair áudio</string>
+    <string name="picker_hint">A faixa vira um arquivo separado</string>
+    <string name="format_title">Formato da faixa</string>
+    <string name="format_note">M4A é uma cópia da faixa do contêiner: instantânea e sem recodificação. WAV é sem perdas, mas pesado — cerca de dez megabytes por minuto.</string>
+    <string name="format_source">Faixa de vídeo</string>
+
+</resources>

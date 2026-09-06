@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «fr». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="picker_title">Compresser</string>
+    <string name="picker_hint">Photos et vidéos — cinq au maximum à la fois</string>
+    <string name="level_title">Compresser à quel point</string>
+    <string name="level_from">depuis %1$s</string>
+    <string name="level_action">Compresser · %1$s</string>
+
+</resources>

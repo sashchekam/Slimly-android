@@ -11,6 +11,13 @@ dependencies {
     // единственный источник версий отсюда, двух копий AGP не бывает.
     implementation(libs.android.gradlePlugin)
     implementation(libs.compose.gradlePlugin)
+    // Плагин сериализации, в отличие от `parcelize`, вместе с AGP не приезжает:
+    // его реализация лежит в отдельном артефакте.
+    implementation(libs.kotlin.serialization.gradlePlugin)
     implementation(libs.detekt.gradlePlugin)
     implementation(libs.ktlint.gradlePlugin)
+    // Плагины Firebase лежат на класспути всегда, а применяются только
+    // при наличии `google-services.json`: решает это `slimly.android.application`.
+    implementation(libs.google.services.gradlePlugin)
+    implementation(libs.firebase.crashlytics.gradlePlugin)
 }

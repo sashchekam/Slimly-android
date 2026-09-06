@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «it». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="intro_title">Scansione documenti</string>
+    <string name="intro_note">Troviamo i bordi del foglio, raddrizziamo la pagina e componiamo un PDF — la cornice si può regolare a mano</string>
+    <string name="intro_camera">Usa la fotocamera</string>
+    <string name="intro_camera_hint">I bordi si rilevano al volo, poi si possono correggere</string>
+    <string name="intro_library">Scegli le foto</string>
+    <string name="intro_library_hint">Fino a %1$d pagine dalla tua libreria</string>
+    <string name="camera_cancel">Annulla</string>
+    <string name="camera_flash_auto">Auto</string>
+    <string name="camera_flash_on">Sì</string>
+    <string name="camera_flash">Flash: %1$s</string>
+    <string name="camera_auto_capture">Scatto automatico</string>
+    <string name="camera_manual">Manuale</string>
+    <string name="camera_manual_hint">Modalità manuale · premi lo scatto</string>
+    <string name="camera_aim_hint">Punta la fotocamera su una pagina</string>
+    <string name="camera_bounds_found">Bordi trovati · tieni fermo</string>
+    <string name="camera_limit_reached">Limite raggiunto — %1$s</string>
+    <string name="camera_limit_spoken">Al massimo %1$s per volta</string>
+    <string name="camera_page_captured">Pagina %1$d acquisita</string>
+    <string name="camera_first_page">Scatta la prima pagina</string>
+    <string name="camera_shutter">Scatta una pagina</string>
+    <string name="camera_done">Fine</string>
+    <string name="camera_done_count">Fine · %1$d</string>
+    <string name="camera_denied_title">Nessun accesso alla fotocamera</string>
+    <string name="camera_denied_note">Consenti la fotocamera in Impostazioni — le pagine si possono scattare o scegliere dalla libreria</string>
+    <string name="camera_open_settings">Apri Impostazioni</string>
+    <string name="picker_title">Pagine della scansione</string>
+    <string name="picker_hint">L’ordine delle pagine segue quello di selezione</string>
+    <string name="pages_title">Bordi delle pagine</string>
+    <string name="pages_subtitle">Pagina %1$d di %2$d · %3$s</string>
+    <string name="pages_searching">Ricerca dei bordi del foglio…</string>
+    <string name="pages_not_found">Nessun bordo trovato — trascina gli angoli sul bordo della pagina</string>
+    <string name="pages_adjust_hint">Trascina gli angoli se la cornice ha mancato il bordo</string>
+    <string name="pages_reset">Ripristina</string>
+    <string name="pages_no_crop">Senza ritaglio</string>
+    <string name="pages_action">Avanti · %1$s</string>
+    <string name="status_searching">ricerca del foglio</string>
+    <string name="status_found">foglio trovato</string>
+    <string name="status_not_found">foglio non trovato</string>
+    <string name="status_adjusted">cornice corretta</string>
+    <string name="format_title">Come comporre la scansione</string>
+    <string name="format_note">L’inquadratura viene raddrizzata sui bordi scelti e lo sfondo portato al bianco. Il b/n dà il testo più nitido, il colore serve a timbri e immagini. Il documento potrà essere salvato in File — gli originali restano nella libreria.</string>
+    <string name="format_action">Componi la scansione</string>
+    <string name="format_source">Foto</string>
+
+</resources>

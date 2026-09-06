@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «fr». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="menu_title">Menu Debug</string>
+    <string name="menu_close">OK</string>
+    <string name="menu_sections">sections</string>
+    <string name="menu_actions">actions</string>
+    <string name="menu_analytics">Analytique</string>
+    <string name="menu_note">Le menu s’ouvre en touchant cinq fois la version dans le profil et n’existe que dans les builds internes — il n’est pas sur Google Play.</string>
+    <string name="menu_open">Ouvrir le menu de débogage</string>
+    <string name="knob_failure_title">Échec du traitement</string>
+    <string name="knob_failure_note">Chaque fichier échoue avec la raison choisie — c’est ainsi que la liste des échecs apparaît sur l’écran de résultat</string>
+    <string name="knob_tour_title">Visite guidée</string>
+    <string name="knob_tour_note">La marque indiquant que la visite a été montrée — retirez-la et redémarrez l’app pour commencer par la visite</string>
+    <string name="knob_seen">Affiché</string>
+    <string name="knob_unseen">Non affiché</string>
+    <string name="knob_tour_marked">La visite est marquée comme affichée</string>
+    <string name="knob_tour_cleared">La visite apparaîtra au prochain lancement</string>
+    <string name="action_copy_diagnostics">Copier le diagnostic</string>
+    <string name="action_copy_diagnostics_hint">version, appareil, ID</string>
+    <string name="action_copy_diagnostics_done">Diagnostic copié dans le presse-papiers</string>
+    <string name="action_reset_stats">Réinitialiser les statistiques</string>
+    <string name="action_reset_stats_hint">le profil est remis à zéro</string>
+    <string name="action_reset_stats_done">Statistiques du profil remises à zéro</string>
+    <string name="action_reset_knobs">Désactiver toutes les surcharges</string>
+    <string name="action_reset_knobs_hint">revenir à l’état Google Play</string>
+    <string name="action_reset_knobs_done">Surcharges désactivées</string>
+    <string name="config_note">Valeurs du serveur et surcharges locales par-dessus. Une surcharge ne vit que sur cet appareil et survit à un redémarrage, tandis que les écrans lisent la valeur à leur ouverture.</string>
+    <string name="config_summary">valeurs du serveur</string>
+    <string name="config_summary_overrides">surcharges : %1$d</string>
+    <string name="config_refresh">Actualiser</string>
+    <string name="config_updated">Valeurs mises à jour</string>
+    <string name="config_nothing_fetched">Rien n’est venu du serveur</string>
+    <string name="config_empty">Aucune valeur</string>
+    <string name="config_empty_note">La configuration n’est pas encore chargée, le projet n’a pas de google-services.json, ou aucun paramètre n’a été publié dans la console web.</string>
+    <string name="config_state_remote">du serveur</string>
+    <string name="config_state_default">valeur par défaut de la clé</string>
+    <string name="config_state_overridden">surchargé · du serveur %1$s</string>
+    <string name="config_state_overridden_only">surchargé · aucune valeur sur le serveur</string>
+    <string name="config_value_field">Valeur</string>
+    <string name="config_edit_note">La valeur n’est surchargée que sur cet appareil. Un champ vide retire la surcharge.</string>
+    <string name="config_override">Surcharger</string>
+    <string name="config_restore">Restaurer la valeur du serveur</string>
+    <string name="config_cancel">Annuler</string>
+    <string name="config_override_set">Valeur surchargée</string>
+    <string name="config_override_cleared">Surcharge retirée</string>
+    <string name="config_clear_all">Retirer toutes les surcharges</string>
+    <string name="config_all_cleared">Toutes les surcharges retirées</string>
+    <string name="analytics_note">Événements et propriétés envoyés à l’analytique depuis ce lancement. Le journal vit en mémoire : un redémarrage l’efface, et jusque-là il garde les %1$d dernières entrées.</string>
+    <string name="analytics_summary_empty">vide</string>
+    <string name="analytics_summary_records">entrées : %1$d</string>
+    <string name="analytics_all">Tous</string>
+    <string name="analytics_properties">propriétés</string>
+    <string name="analytics_property">propriété · %1$s</string>
+    <string name="analytics_value_cleared">effacée</string>
+    <string name="analytics_copy">Copier</string>
+    <string name="analytics_copied">Journal copié</string>
+    <string name="analytics_clear">Effacer</string>
+    <string name="analytics_log_cleared">Journal effacé</string>
+    <string name="analytics_empty">Aucun événement</string>
+    <string name="analytics_empty_note">L’app n’a encore rien envoyé. Utilisez n’importe quel outil et revenez ici — l’entrée apparaît aussitôt, inutile d’attendre la console web.</string>
+
+</resources>

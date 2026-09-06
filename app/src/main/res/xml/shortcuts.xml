@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Ярлыки в меню иконки — андроидный аналог иосных Quick Actions.
+  Статические, а не динамические: список инструментов не зависит ни от того,
+  чем пользовались, ни от данных приложения.
+
+  Каждый ярлык — та же ссылка `slimly://`, что и в виджете: инструмент
+  открывается одной таблицей ссылок, а не отдельной веткой на каждый вход.
+-->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_tool_compress"
+        android:shortcutId="compress"
+        android:shortcutLongLabel="@string/tool_compress_title"
+        android:shortcutShortLabel="@string/tool_compress_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="slimly://compress"
+            android:targetClass="com.slimly.app.MainActivity"
+            android:targetPackage="com.slimly" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_tool_convert_photo"
+        android:shortcutId="convert-photo"
+        android:shortcutLongLabel="@string/tool_convert_photo_title"
+        android:shortcutShortLabel="@string/tool_convert_photo_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="slimly://convert/photo"
+            android:targetClass="com.slimly.app.MainActivity"
+            android:targetPackage="com.slimly" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_tool_convert_video"
+        android:shortcutId="convert-video"
+        android:shortcutLongLabel="@string/tool_convert_video_title"
+        android:shortcutShortLabel="@string/tool_convert_video_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="slimly://convert/video"
+            android:targetClass="com.slimly.app.MainActivity"
+            android:targetPackage="com.slimly" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_tool_audio"
+        android:shortcutId="audio"
+        android:shortcutLongLabel="@string/tool_audio_title"
+        android:shortcutShortLabel="@string/tool_audio_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="slimly://audio"
+            android:targetClass="com.slimly.app.MainActivity"
+            android:targetPackage="com.slimly" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_tool_scan"
+        android:shortcutId="scan"
+        android:shortcutLongLabel="@string/tool_scan_title"
+        android:shortcutShortLabel="@string/tool_scan_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="slimly://scan"
+            android:targetClass="com.slimly.app.MainActivity"
+            android:targetPackage="com.slimly" />
+    </shortcut>
+
+</shortcuts>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «fr». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="compress_kicker">Compression</string>
+    <string name="compress_title">Libérez de l’espace sans rien supprimer</string>
+    <string name="compress_text">Choisissez photos et vidéos, réglez le niveau — nous montrons la taille avant et après et une comparaison d’images. Les originaux restent jusqu’à ce que vous les supprimiez.</string>
+    <string name="compress_sample">1,4 Go → 590 Mo</string>
+    <string name="convert_kicker">Conversion</string>
+    <string name="convert_title">N’importe quel format pour n’importe quel usage</string>
+    <string name="convert_text">HEIC, JPEG, PNG, H.264, HEVC — pour tout le lot d’un coup, en conservant la date de prise de vue et la géolocalisation.</string>
+    <string name="audio_kicker">Audio</string>
+    <string name="audio_title">Extrayez le son d’une vidéo</string>
+    <string name="audio_text">Un cours, une interview, un message vocal dans une vidéo — nous l’enregistrons en M4A ou WAV sans réencoder inutilement.</string>
+    <string name="audio_sample">M4A · 4,2 Mo</string>
+    <string name="scan_kicker">Scan</string>
+    <string name="scan_title">Un document en PDF en une seule prise</string>
+    <string name="scan_text">Prenez les pages l’une après l’autre : les bords sont détectés tout seuls, l’image est redressée, tout arrive dans un seul PDF.</string>
+    <string name="tour_next">Suivant</string>
+    <string name="tour_start">Commencer</string>
+    <string name="tour_skip">Passer</string>
+    <string name="tour_close">Fermer</string>
+
+</resources>

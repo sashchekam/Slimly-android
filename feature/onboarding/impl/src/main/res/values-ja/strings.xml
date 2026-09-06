@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ja». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="compress_kicker">圧縮</string>
+    <string name="compress_title">何も削除せずに空き容量を増やす</string>
+    <string name="compress_text">写真とビデオを選んでレベルを指定すると、前後のサイズと画質の比較を表示します。オリジナルは自分で削除するまで残ります。</string>
+    <string name="compress_sample">1.4 GB → 590 MB</string>
+    <string name="convert_kicker">変換</string>
+    <string name="convert_title">どんな用途にもどんな形式でも</string>
+    <string name="convert_text">HEIC、JPEG、PNG、H.264、HEVC — まとめて一括変換し、撮影日と位置情報も保持します。</string>
+    <string name="audio_kicker">音声</string>
+    <string name="audio_title">ビデオから音声を取り出す</string>
+    <string name="audio_text">講義、インタビュー、ビデオ内の音声メモ — 余計な再エンコードなしで M4A か WAV に保存します。</string>
+    <string name="audio_sample">M4A · 4.2 MB</string>
+    <string name="scan_kicker">スキャン</string>
+    <string name="scan_title">一度の撮影で書類を PDF に</string>
+    <string name="scan_text">ページを続けて撮るだけ。境界は自動で見つかり、傾きも補正され、すべてが 1 つの PDF になります。</string>
+    <string name="tour_next">次へ</string>
+    <string name="tour_start">はじめる</string>
+    <string name="tour_skip">スキップ</string>
+    <string name="tour_close">閉じる</string>
+
+</resources>

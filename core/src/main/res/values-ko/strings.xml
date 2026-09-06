@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ko». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="kind_compression">압축</string>
+    <string name="kind_conversion">변환</string>
+    <string name="kind_audio_extraction">오디오 추출</string>
+    <string name="kind_scan">문서 스캔</string>
+    <string name="kind_short_compression">압축</string>
+    <string name="kind_short_conversion">변환</string>
+    <string name="kind_short_audio_extraction">오디오</string>
+    <string name="kind_short_scan">스캔</string>
+    <string name="audio_format_aac">M4A · %1$d kbps</string>
+    <string name="audio_format_wav">WAV · 무손실</string>
+    <string name="palette_color">컬러</string>
+    <string name="palette_gray">회색</string>
+    <string name="palette_black_and_white">흑백</string>
+    <string name="quality_light">약하게</string>
+    <string name="quality_medium">보통</string>
+    <string name="quality_maximum">최대</string>
+    <string name="quality_summary_light">1080p, 원본과 거의 차이 없음</string>
+    <string name="quality_summary_medium">1080p, 낮은 비트레이트 — 메신저와 클라우드용</string>
+    <string name="quality_summary_maximum">720p, 세부 묘사에서 차이가 보임</string>
+    <string name="period_month">30일</string>
+    <string name="period_quarter">90일</string>
+    <string name="period_all_time">전체 기간</string>
+    <string name="period_all_time_inline">전체 기간</string>
+    <string name="size_megabyte">MB</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="date_today">오늘</string>
+    <string name="date_yesterday">어제</string>
+    <string name="digest_empty">아직 처리한 항목이 없습니다</string>
+    <string name="digest_since">%1$s부터 · %2$s</string>
+    <string name="badge_photo">사진</string>
+    <string name="badge_video">비디오</string>
+    <string name="library_error_access_denied">사진 보관함에 접근할 수 없습니다</string>
+    <string name="library_error_item_not_found">사진 보관함에서 파일을 찾을 수 없습니다</string>
+    <string name="library_error_original_unavailable">원본이 아직 클라우드에 있습니다</string>
+    <string name="failure_none">없음</string>
+    <string name="failure_no_space">공간 부족</string>
+    <string name="failure_unreadable">손상된 파일</string>
+    <string name="failure_interrupted">중단됨</string>
+    <string name="failure_save_denied">저장 거부됨</string>
+    <string name="failure_detail_no_space">기기에 사본을 저장할 공간이 부족합니다</string>
+    <string name="failure_detail_unreadable">파일이 손상되었거나 아직 클라우드에서 내려받는 중입니다</string>
+    <string name="failure_detail_interrupted">시스템이 처리를 중단했습니다</string>
+    <string name="failure_detail_save_denied">Android가 결과를 갤러리에 저장하는 것을 거부했습니다</string>
+    <plurals name="count_file">
+        <item quantity="other">파일 %1$d개</item>
+    </plurals>
+    <plurals name="count_photo">
+        <item quantity="other">사진 %1$d장</item>
+    </plurals>
+    <plurals name="count_video">
+        <item quantity="other">동영상 %1$d개</item>
+    </plurals>
+    <plurals name="count_page">
+        <item quantity="other">%1$d페이지</item>
+    </plurals>
+    <plurals name="count_track">
+        <item quantity="other">트랙 %1$d개</item>
+    </plurals>
+    <plurals name="count_conversion">
+        <item quantity="other">변환 %1$d회</item>
+    </plurals>
+    <plurals name="count_scan">
+        <item quantity="other">스캔 %1$d개</item>
+    </plurals>
+    <plurals name="unit_file">
+        <item quantity="other">파일</item>
+    </plurals>
+    <plurals name="unit_photo">
+        <item quantity="other">사진</item>
+    </plurals>
+    <plurals name="unit_video">
+        <item quantity="other">동영상</item>
+    </plurals>
+    <plurals name="unit_page">
+        <item quantity="other">페이지</item>
+    </plurals>
+    <plurals name="unit_track">
+        <item quantity="other">트랙</item>
+    </plurals>
+    <plurals name="unit_conversion">
+        <item quantity="other">변환</item>
+    </plurals>
+    <plurals name="unit_scan">
+        <item quantity="other">스캔</item>
+    </plurals>
+
+</resources>

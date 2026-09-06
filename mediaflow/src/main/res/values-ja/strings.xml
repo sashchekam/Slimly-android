@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ja». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="picker_action">次へ · %1$s</string>
+    <string name="picker_action_with_size">次へ · %1$s、%2$s</string>
+    <string name="picker_denied_title">ギャラリーにアクセスできません</string>
+    <string name="picker_denied_hint">Slimly は自分で選んだファイルを扱います。アクセスは設定で許可します。</string>
+    <string name="picker_denied_action">設定を開く</string>
+    <string name="picker_empty_title">表示するものがありません</string>
+    <string name="picker_empty_hint">このアルバムには Slimly が扱えるファイルがありません</string>
+    <string name="picker_empty_limited">選んだファイルだけが表示されます。追加は設定から行えます。</string>
+    <string name="format_section_title">形式</string>
+    <string name="format_from">元</string>
+    <string name="format_to">先</string>
+    <string name="stage_compressing">圧縮中</string>
+    <string name="stage_converting">変換中</string>
+    <string name="stage_extracting">抽出中</string>
+    <string name="stage_scanning">スキャン中</string>
+    <string name="progress_estimating">%1$s · 推定中</string>
+    <string name="progress_remaining">残り %1$s · %2$s</string>
+    <string name="progress_cancel">キャンセル</string>
+    <string name="stage_compression_done">圧縮しました</string>
+    <string name="stage_conversion_done">変換しました</string>
+    <string name="stage_audio_done">抽出しました</string>
+    <string name="stage_scan_done">スキャンしました</string>
+    <string name="summary_freed">%1$s を節約</string>
+    <string name="summary_dense">%1$s · すでに高密度でした</string>
+    <string name="summary_originals_untouched">オリジナルはそのまま</string>
+    <string name="outcome_failed">処理できませんでした</string>
+    <string name="outcome_done">完了</string>
+    <string name="outcome_track_size">トラック %1$s</string>
+    <string name="outcome_rename_file">ファイル %1$s の名前を変更</string>
+    <string name="outcome_delete_originals">オリジナルを削除 · %1$s</string>
+    <string name="outcome_share_file">ファイル %1$s を共有</string>
+    <string name="outcome_share_all">すべて共有 · %1$d</string>
+    <string name="save_to_gallery">ギャラリーに保存</string>
+    <string name="save_to_files">「ファイル」に保存</string>
+    <string name="save_hint">オリジナルはそのままです</string>
+    <string name="save_done">ギャラリーに保存しました</string>
+    <string name="save_files_done">「ファイル」に保存しました</string>
+    <string name="save_files_folder">「ファイル」の「Slimly」フォルダに保存しました</string>
+    <string name="save_partial">一部のファイルを保存できませんでした</string>
+    <string name="save_failed">保存できませんでした</string>
+    <string name="hint_compression">ファイルをタップすると前後を比較できます</string>
+    <string name="hint_preview">ファイルをタップするとプレビューが開きます</string>
+    <string name="preview_before_title">オリジナル · %1$s</string>
+    <string name="preview_after_title">圧縮後 · %1$s</string>
+    <string name="preview_before_caption">オリジナル · %1$s</string>
+    <string name="preview_after_caption">処理後 · %1$s</string>
+    <string name="preview_compression">ライブラリ内のコピーです。容量が %1$s 減りました。オリジナルはそのままです。</string>
+    <string name="preview_conversion">ライブラリ内の完成した %1$s です。オリジナルはそのままです。</string>
+    <string name="preview_scan">完成した %1$s です — 「ファイル」の Slimly フォルダにもあります。</string>
+    <string name="preview_audio">完成したトラックです — 「ファイル」の Slimly フォルダにあります。ビデオは変更されていません。</string>
+    <string name="preview_source_compare">ライブラリのオリジナル — 比較用です。</string>
+    <string name="preview_source_note">ライブラリのオリジナルです — 現在の見た目です。処理しても変わりません。結果は別のファイルになります。</string>
+    <string name="preview_track">ビデオのトラック</string>
+    <string name="preview_track_time">ビデオのトラック · %1$s</string>
+    <string name="badge_compressed">圧縮コピー</string>
+    <string name="badge_document">書類</string>
+    <string name="badge_original">オリジナル</string>
+    <string name="badge_result">結果</string>
+    <string name="badge_track">トラック</string>
+    <string name="preview_open">別のアプリで開く</string>
+    <string name="rename_title">新しい名前</string>
+    <string name="rename_field">ファイル名</string>
+    <string name="rename_apply">名前を変更</string>
+    <string name="rename_cancel">キャンセル</string>
+    <string name="rename_note">拡張子 %1$s はそのままです</string>
+    <string name="rename_failed">名前を変更できませんでした</string>
+
+</resources>

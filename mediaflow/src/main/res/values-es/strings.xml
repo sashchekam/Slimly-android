@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «es». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="picker_action">Siguiente · %1$s</string>
+    <string name="picker_action_with_size">Siguiente · %1$s, %2$s</string>
+    <string name="picker_denied_title">Sin acceso a la galería</string>
+    <string name="picker_denied_hint">Slimly trabaja con los archivos que tú eliges. El acceso se concede en Ajustes.</string>
+    <string name="picker_denied_action">Abrir Ajustes</string>
+    <string name="picker_empty_title">Nada que mostrar</string>
+    <string name="picker_empty_hint">En este álbum no hay archivos con los que Slimly pueda trabajar</string>
+    <string name="picker_empty_limited">Solo se ven los archivos que elegiste. Puedes elegir más en Ajustes.</string>
+    <string name="format_section_title">formato</string>
+    <string name="format_from">de</string>
+    <string name="format_to">a</string>
+    <string name="stage_compressing">comprimiendo</string>
+    <string name="stage_converting">convirtiendo</string>
+    <string name="stage_extracting">extrayendo</string>
+    <string name="stage_scanning">escaneando</string>
+    <string name="progress_estimating">%1$s · estimando</string>
+    <string name="progress_remaining">Quedan %1$s · %2$s</string>
+    <string name="progress_cancel">Cancelar</string>
+    <string name="stage_compression_done">comprimido</string>
+    <string name="stage_conversion_done">convertido</string>
+    <string name="stage_audio_done">extraído</string>
+    <string name="stage_scan_done">escaneado</string>
+    <string name="summary_freed">%1$s liberados</string>
+    <string name="summary_dense">%1$s · ya estaba bien comprimido</string>
+    <string name="summary_originals_untouched">originales intactos</string>
+    <string name="outcome_failed">No se pudo procesar</string>
+    <string name="outcome_done">Listo</string>
+    <string name="outcome_track_size">pista %1$s</string>
+    <string name="outcome_rename_file">Cambiar el nombre del archivo %1$s</string>
+    <string name="outcome_delete_originals">Eliminar originales · %1$s</string>
+    <string name="outcome_share_file">Compartir el archivo %1$s</string>
+    <string name="outcome_share_all">Compartir todo · %1$d</string>
+    <string name="save_to_gallery">Guardar en la galería</string>
+    <string name="save_to_files">Guardar en Archivos</string>
+    <string name="save_hint">Los originales se quedan donde están</string>
+    <string name="save_done">Guardado en la galería</string>
+    <string name="save_files_done">Guardado en Archivos</string>
+    <string name="save_files_folder">Guardado en la carpeta «Slimly» de Archivos</string>
+    <string name="save_partial">Algunos archivos no se pudieron guardar</string>
+    <string name="save_failed">No se pudo guardar</string>
+    <string name="hint_compression">Toca un archivo para comparar antes y después</string>
+    <string name="hint_preview">Toca un archivo para abrir la vista previa</string>
+    <string name="preview_before_title">Original · %1$s</string>
+    <string name="preview_after_title">Comprimido · %1$s</string>
+    <string name="preview_before_caption">Original · %1$s</string>
+    <string name="preview_after_caption">después · %1$s</string>
+    <string name="preview_compression">Una copia en tu fototeca: se fue el %1$s del peso. El original está intacto.</string>
+    <string name="preview_conversion">Un %1$s listo en tu fototeca. El original quedó como estaba.</string>
+    <string name="preview_scan">Un %1$s listo: también está en Archivos, en la carpeta Slimly.</string>
+    <string name="preview_audio">Una pista lista: está en Archivos, en la carpeta Slimly. El vídeo no se modificó.</string>
+    <string name="preview_source_compare">El original de tu fototeca, para comparar.</string>
+    <string name="preview_source_note">El original de tu fototeca: así se ve ahora. El procesamiento no lo cambia; el resultado será un archivo aparte.</string>
+    <string name="preview_track">Pista de vídeo</string>
+    <string name="preview_track_time">Pista de vídeo · %1$s</string>
+    <string name="badge_compressed">COPIA COMPRIMIDA</string>
+    <string name="badge_document">DOCUMENTO</string>
+    <string name="badge_original">ORIGINAL</string>
+    <string name="badge_result">RESULTADO</string>
+    <string name="badge_track">PISTA</string>
+    <string name="preview_open">Abrir en…</string>
+    <string name="rename_title">Nuevo nombre</string>
+    <string name="rename_field">Nombre del archivo</string>
+    <string name="rename_apply">Cambiar nombre</string>
+    <string name="rename_cancel">Cancelar</string>
+    <string name="rename_note">La extensión %1$s se mantiene</string>
+    <string name="rename_failed">No se pudo cambiar el nombre</string>
+
+</resources>

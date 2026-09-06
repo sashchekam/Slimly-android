@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «ru». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="intro_title">Скан документа</string>
+    <string name="intro_note">Найдём границы листа, выпрямим страницу и соберём в PDF — рамку можно поправить вручную</string>
+    <string name="intro_camera">Снять на камеру</string>
+    <string name="intro_camera_hint">Границы ловим на лету, поправить можно после</string>
+    <string name="intro_library">Выбрать фото</string>
+    <string name="intro_library_hint">До %1$d страниц из галереи</string>
+    <string name="camera_cancel">Отмена</string>
+    <string name="camera_flash_auto">Авто</string>
+    <string name="camera_flash_on">Вкл</string>
+    <string name="camera_flash">Вспышка: %1$s</string>
+    <string name="camera_auto_capture">Автосъёмка</string>
+    <string name="camera_manual">Вручную</string>
+    <string name="camera_manual_hint">Ручной режим · нажмите затвор</string>
+    <string name="camera_aim_hint">Наведите камеру на страницу</string>
+    <string name="camera_bounds_found">Границы найдены · держите ровно</string>
+    <string name="camera_limit_reached">Достигнут лимит — %1$s</string>
+    <string name="camera_limit_spoken">Максимум %1$s за раз</string>
+    <string name="camera_page_captured">Страница %1$d снята</string>
+    <string name="camera_first_page">Снимите первую страницу</string>
+    <string name="camera_shutter">Снять страницу</string>
+    <string name="camera_done">Готово</string>
+    <string name="camera_done_count">Готово · %1$d</string>
+    <string name="camera_denied_title">Нет доступа к камере</string>
+    <string name="camera_denied_note">Разрешите съёмку в настройках — страницы можно снять или выбрать из галереи</string>
+    <string name="camera_open_settings">Открыть настройки</string>
+    <string name="picker_title">Страницы скана</string>
+    <string name="picker_hint">Порядок страниц — как порядок выбора</string>
+    <string name="pages_title">Границы страниц</string>
+    <string name="pages_subtitle">Страница %1$d из %2$d · %3$s</string>
+    <string name="pages_searching">Ищем границы листа…</string>
+    <string name="pages_not_found">Границы не нашлись — потяните углы по краю страницы</string>
+    <string name="pages_adjust_hint">Потяните за углы, если рамка легла мимо края</string>
+    <string name="pages_reset">Сбросить</string>
+    <string name="pages_no_crop">Без обрезки</string>
+    <string name="pages_action">Далее · %1$s</string>
+    <string name="status_searching">ищем лист</string>
+    <string name="status_found">лист найден</string>
+    <string name="status_not_found">лист не нашёлся</string>
+    <string name="status_adjusted">рамка поправлена</string>
+    <string name="format_title">Как собрать скан</string>
+    <string name="format_note">Кадр выпрямляем по выбранным границам, фон добиваем до белого. Ч/б даёт самый чёткий текст, цвет нужен печатям и картинкам. Документ можно будет сохранить в «Файлы» — оригиналы останутся в медиатеке.</string>
+    <string name="format_action">Собрать скан</string>
+    <string name="format_source">Фото</string>
+
+</resources>

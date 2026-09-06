@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Перевод модуля на «it». Файл собран конвертером:
+  python3 tools/l10n/import-catalogs.py. Английский лежит
+  в values/strings.xml — правят там, а перевод приезжает сюда.
+-->
+<resources>
+
+    <string name="kind_compression">Compressione</string>
+    <string name="kind_conversion">Conversione</string>
+    <string name="kind_audio_extraction">Estrazione audio</string>
+    <string name="kind_scan">Scansione documenti</string>
+    <string name="kind_short_compression">Compressione</string>
+    <string name="kind_short_conversion">Conversione</string>
+    <string name="kind_short_audio_extraction">Audio</string>
+    <string name="kind_short_scan">Scansioni</string>
+    <string name="audio_format_aac">M4A · %1$d kbps</string>
+    <string name="audio_format_wav">WAV · senza perdita</string>
+    <string name="palette_color">colore</string>
+    <string name="palette_gray">grigio</string>
+    <string name="palette_black_and_white">b/n</string>
+    <string name="quality_light">Leggera</string>
+    <string name="quality_medium">Media</string>
+    <string name="quality_maximum">Massima</string>
+    <string name="quality_summary_light">1080p, quasi indistinguibile dall’originale</string>
+    <string name="quality_summary_medium">1080p, bitrate inferiore — per messaggistica e cloud</string>
+    <string name="quality_summary_maximum">720p, visibile nei dettagli</string>
+    <string name="period_month">30 giorni</string>
+    <string name="period_quarter">90 giorni</string>
+    <string name="period_all_time">Sempre</string>
+    <string name="period_all_time_inline">sempre</string>
+    <string name="size_megabyte">MB</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="date_today">Oggi</string>
+    <string name="date_yesterday">Ieri</string>
+    <string name="digest_empty">Ancora nulla di elaborato</string>
+    <string name="digest_since">dal %1$s · %2$s</string>
+    <string name="badge_photo">FOTO</string>
+    <string name="badge_video">VIDEO</string>
+    <string name="library_error_access_denied">Nessun accesso alla libreria foto</string>
+    <string name="library_error_item_not_found">File non trovato nella libreria foto</string>
+    <string name="library_error_original_unavailable">L’originale è ancora nel cloud</string>
+    <string name="failure_none">Nessuno</string>
+    <string name="failure_no_space">Spazio esaurito</string>
+    <string name="failure_unreadable">File danneggiato</string>
+    <string name="failure_interrupted">Interrotto</string>
+    <string name="failure_save_denied">Salvataggio negato</string>
+    <string name="failure_detail_no_space">Spazio insufficiente sul dispositivo per la copia</string>
+    <string name="failure_detail_unreadable">Il file è danneggiato o si sta ancora scaricando dal cloud</string>
+    <string name="failure_detail_interrupted">L’elaborazione è stata interrotta dal sistema</string>
+    <string name="failure_detail_save_denied">Android ha rifiutato di salvare il risultato nella galleria</string>
+    <plurals name="count_file">
+        <item quantity="one">%1$d file</item>
+        <item quantity="other">%1$d file</item>
+    </plurals>
+    <plurals name="count_photo">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d foto</item>
+    </plurals>
+    <plurals name="count_video">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d video</item>
+    </plurals>
+    <plurals name="count_page">
+        <item quantity="one">%1$d pagina</item>
+        <item quantity="other">%1$d pagine</item>
+    </plurals>
+    <plurals name="count_track">
+        <item quantity="one">%1$d traccia</item>
+        <item quantity="other">%1$d tracce</item>
+    </plurals>
+    <plurals name="count_conversion">
+        <item quantity="one">%1$d conversione</item>
+        <item quantity="other">%1$d conversioni</item>
+    </plurals>
+    <plurals name="count_scan">
+        <item quantity="one">%1$d scansione</item>
+        <item quantity="other">%1$d scansioni</item>
+    </plurals>
+    <plurals name="unit_file">
+        <item quantity="one">file</item>
+        <item quantity="other">file</item>
+    </plurals>
+    <plurals name="unit_photo">
+        <item quantity="one">foto</item>
+        <item quantity="other">foto</item>
+    </plurals>
+    <plurals name="unit_video">
+        <item quantity="one">video</item>
+        <item quantity="other">video</item>
+    </plurals>
+    <plurals name="unit_page">
+        <item quantity="one">pagina</item>
+        <item quantity="other">pagine</item>
+    </plurals>
+    <plurals name="unit_track">
+        <item quantity="one">traccia</item>
+        <item quantity="other">tracce</item>
+    </plurals>
+    <plurals name="unit_conversion">
+        <item quantity="one">conversione</item>
+        <item quantity="other">conversioni</item>
+    </plurals>
+    <plurals name="unit_scan">
+        <item quantity="one">scansione</item>
+        <item quantity="other">scansioni</item>
+    </plurals>
+
+</resources>

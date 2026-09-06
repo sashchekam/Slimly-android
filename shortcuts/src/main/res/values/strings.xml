@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Подписи инструментов. Живут здесь, а не в `:app`: один и тот же
+  инструмент подписан одинаково на хабе, в ярлыке иконки и в виджете.
+-->
+<resources>
+
+    <string name="tool_compress_title">Compress</string>
+    <string name="tool_compress_short">Compress</string>
+    <string name="tool_compress_subtitle">Same picture, a fraction of the weight</string>
+
+    <string name="tool_convert_photo_title">Convert photos</string>
+    <string name="tool_convert_photo_short">Photo</string>
+    <string name="tool_convert_photo_subtitle">JPEG · WebP · PNG</string>
+
+    <string name="tool_convert_video_title">Convert video</string>
+    <string name="tool_convert_video_short">Video</string>
+    <string name="tool_convert_video_subtitle">MP4 · H.264 / HEVC</string>
+
+    <string name="tool_scan_title">Scan a document</string>
+    <string name="tool_scan_short">Scan</string>
+    <string name="tool_scan_subtitle">Pages into a single PDF</string>
+
+    <string name="tool_audio_title">Extract audio</string>
+    <string name="tool_audio_short">Audio</string>
+    <string name="tool_audio_subtitle">A track out of a video</string>
+
+    <string name="widget_board_title">Tools</string>
+    <string name="widget_board_description">Every Slimly tool within reach.</string>
+
+    <string name="widget_tool_title">Tool</string>
+    <string name="widget_tool_description">Opens the chosen Slimly tool with a single tap.</string>
+    <string name="widget_tool_configure">The Slimly tool the widget opens.</string>
+
+</resources>
